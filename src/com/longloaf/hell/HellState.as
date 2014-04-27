@@ -24,7 +24,7 @@ package com.longloaf.hell
 		
 		private var player:Player;
 		
-		private var objGroup:FlxGroup;
+		private var enemyGroup:EnemyGroup;
 		
 		private var bulletGroup:BulletGroup;
 		
@@ -33,25 +33,29 @@ package com.longloaf.hell
 			tileMap = new FlxTilemap();
 			tileMap.loadMap(new Map(), Tiles, TS, TS, FlxTilemap.OFF, 0, 0, 1);
 			
-			objGroup = new FlxGroup();
-			
 			bulletGroup = new BulletGroup();
 			
 			player = new Player();
 			player.reset((tileMap.width - player.width) / 2, (tileMap.height - player.height) / 2);
 			player.bulletGroup = bulletGroup;
 			
+			enemyGroup = new EnemyGroup();
+			
 			FlxG.camera.follow(player);
-			tileMap.follow(FlxG.camera, 1);
+			//tileMap.follow(FlxG.camera, 1);
 			
 			add(tileMap);
-			add(objGroup);
+			add(enemyGroup);
 			add(player);
 			add(bulletGroup);
 		}
 		
 		override public function update():void 
 		{
+			if (FlxG.keys.justPressed("ONE")) {
+				var e01:Enemy01 = enemyGroup.recycle(Enemy01) as Enemy01;
+				e01.reset(FlxG.mouse.x, FlxG.mouse.y);
+			}
 			super.update();
 			
 			FlxG.collide(player, tileMap);
