@@ -5,6 +5,7 @@ package com.longloaf.hole
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxSprite;
 	import org.flixel.FlxState;
+	import org.flixel.FlxText;
 	import org.flixel.FlxU;
 	/**
 	 * ...
@@ -12,7 +13,10 @@ package com.longloaf.hole
 	 */
 	public class HoleState extends FlxState
 	{
-		public static const VEL:Number = -200;
+		
+		public static var FOBJ:FlxSprite;
+		
+		private var velText:FlxText;
 		
 		private var bg:Bg;
 		
@@ -22,6 +26,13 @@ package com.longloaf.hole
 		
 		override public function create():void 
 		{
+			FOBJ = new FlxSprite();
+			FOBJ.reset(0, FlxG.height);
+			FOBJ.velocity.y = 50;
+			FOBJ.acceleration.y = 5;
+			FOBJ.visible = false;
+			add(FOBJ);
+			
 			var s1:FlxSprite = new FlxSprite();
 			s1.makeGraphic(FlxG.width, FlxG.height, FlxU.makeColorFromHSB(30, 0.2, 0.8));
 			add(s1);
@@ -37,9 +48,15 @@ package com.longloaf.hole
 			
 			spikeGroup = new FlxGroup();
 			
+			velText = new FlxText(0, 0, FlxG.width, "?");
+			velText.size = 16;
+			velText.color = FlxG.WHITE;
+			velText.shadow = FlxG.BLACK;
+			
 			add(bg);
 			add(player);
 			add(spikeGroup);
+			add(velText);
 		}
 		
 		override public function update():void 
@@ -51,6 +68,8 @@ package com.longloaf.hole
 			}
 			
 			super.update();
+			
+			velText.text = int(FOBJ.velocity.y).toString();
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());

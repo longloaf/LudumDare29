@@ -17,6 +17,7 @@ package com.longloaf.hole
 		
 		override public function update():void 
 		{
+			velocity.y = -HoleState.FOBJ.velocity.y;
 			if (y < -height) {
 				kill();
 			}

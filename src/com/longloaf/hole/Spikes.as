@@ -33,11 +33,11 @@ package com.longloaf.hole
 			}
 			
 			reset(nx, FlxG.height);
-			velocity.y = HoleState.VEL;
 		}
 		
 		override public function update():void 
 		{
+			velocity.y = -HoleState.FOBJ.velocity.y;
 			if (y < -height) {
 				kill();
 			}

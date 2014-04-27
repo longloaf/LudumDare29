@@ -17,7 +17,6 @@ package com.longloaf.hole
 				last = new BgSpr();
 				last.x = 200;
 				last.y = y;
-				last.velocity.y = HoleState.VEL;
 				add(last);
 				y = last.y + last.height;
 			}
@@ -28,7 +27,6 @@ package com.longloaf.hole
 			if (last.y <= (FlxG.height - last.height)) {
 				var tmp:BgSpr = recycle(BgSpr) as BgSpr;
 				tmp.reset(200, last.y + last.height);
-				tmp.velocity.y = HoleState.VEL;
 				last = tmp;
 			}
 			super.update();
