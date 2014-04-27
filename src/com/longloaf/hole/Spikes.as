@@ -8,12 +8,11 @@ package com.longloaf.hole
 	 * @author Maksim Soldatov
 	 */
 	public class Spikes extends FlxSprite
-	{
-		public static const VEL:Number = -1000;
-		
+	{	
 		public static const L:int = 0;
 		public static const C:int = 1;
 		public static const R:int = 2;
+		public static const POSNUM:int = 3;
 		
 		public function Spikes() 
 		{
@@ -34,7 +33,7 @@ package com.longloaf.hole
 			}
 			
 			reset(nx, FlxG.height);
-			velocity.y = VEL;
+			velocity.y = HoleState.VEL;
 		}
 		
 		override public function update():void 
