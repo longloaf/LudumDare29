@@ -18,6 +18,7 @@ package com.longloaf.hole
 		public static var FOBJ:FlxSprite;
 		
 		private var velText:FlxText;
+		private var spikeText:FlxText;
 		
 		private var bg:Bg;
 		
@@ -29,7 +30,7 @@ package com.longloaf.hole
 		{
 			FOBJ = new FlxSprite();
 			FOBJ.reset(0, FlxG.height);
-			FOBJ.velocity.y = 400;
+			FOBJ.velocity.y = 500;
 			FOBJ.acceleration.y = 5;
 			FOBJ.visible = false;
 			add(FOBJ);
@@ -54,27 +55,26 @@ package com.longloaf.hole
 			velText.color = FlxG.WHITE;
 			velText.shadow = FlxG.BLACK;
 			
+			spikeText = new FlxText(0, 20, FlxG.width, "?");
+			spikeText.size = 16;
+			spikeText.color = FlxG.WHITE;
+			spikeText.shadow = FlxG.BLACK;
+			
 			add(bg);
 			add(player);
 			add(spikeGroup);
 			add(velText);
+			add(spikeText);
 		}
 		
 		override public function update():void 
 		{
-			/*
-			if (FlxG.keys.justPressed("ONE")) {
-				makeSpikes1();
-			} else if (FlxG.keys.justPressed("TWO")) {
-				makeSpikes2();
-			}
-			*/
-			
 			super.update();
 			
 			FlxG.overlap(player, spikeGroup, ovPlayerSpikes);
 			
-			velText.text = int(FOBJ.velocity.y).toString();
+			velText.text = "VEL: " + int(FOBJ.velocity.y).toString();
+			spikeText.text = "SPIKES: " + spikeGroup.count;
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());

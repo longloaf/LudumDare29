@@ -9,7 +9,7 @@ package com.longloaf.hole
 	 */
 	public class Player extends FlxSprite
 	{
-		private static const T:Number = 0.2;
+		private static const T:Number = 0.1;
 		
 		private var t:Number = 0;
 		
