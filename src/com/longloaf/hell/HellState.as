@@ -18,6 +18,9 @@ package com.longloaf.hell
 		[Embed(source = "map.txt", mimeType = "application/octet-stream")]
 		private static const Map:Class;
 		
+		[Embed(source = "map_16x12.txt", mimeType = "application/octet-stream")]
+		private static const Map2:Class;
+		
 		public static const TS:Number = 50;
 		
 		private var tileMap:FlxTilemap;
@@ -31,7 +34,7 @@ package com.longloaf.hell
 		override public function create():void 
 		{
 			tileMap = new FlxTilemap();
-			tileMap.loadMap(new Map(), Tiles, TS, TS, FlxTilemap.OFF, 0, 0, 1);
+			tileMap.loadMap(new Map2(), Tiles, TS, TS, FlxTilemap.OFF, 0, 0, 1);
 			
 			bulletGroup = new BulletGroup();
 			
@@ -54,7 +57,12 @@ package com.longloaf.hell
 		{
 			if (FlxG.keys.justPressed("ONE")) {
 				var e01:Enemy01 = enemyGroup.recycle(Enemy01) as Enemy01;
+				e01.map = tileMap;
 				e01.reset(FlxG.mouse.x, FlxG.mouse.y);
+			}  else if (FlxG.keys.justPressed("TWO")) {
+				var e02:Enemy02 = enemyGroup.recycle(Enemy02) as Enemy02;
+				e02.player = player;
+				e02.reset(FlxG.mouse.x, FlxG.mouse.y);
 			}
 			super.update();
 			

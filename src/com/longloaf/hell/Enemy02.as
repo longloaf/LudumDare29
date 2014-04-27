@@ -2,19 +2,17 @@ package com.longloaf.hell
 {
 	import com.longloaf.util.R;
 	import org.flixel.FlxG;
-	import org.flixel.FlxObject;
 	import org.flixel.FlxPath;
 	import org.flixel.FlxPoint;
 	import org.flixel.FlxSprite;
-	import org.flixel.FlxTilemap;
 	/**
 	 * ...
 	 * @author Maksim Soldatov
 	 */
-	public class Enemy01 extends FlxSprite
+	public class Enemy02 extends FlxSprite
 	{
 		
-		public var map:FlxTilemap = null;
+		public var player:Player = null;
 		
 		private var target:FlxPoint = new FlxPoint();
 		
@@ -22,9 +20,12 @@ package com.longloaf.hell
 		
 		private var p:FlxPath;
 		
-		public function Enemy01() 
+		private var T:Number = 2;
+		private var t:Number = 0;
+		
+		public function Enemy02() 
 		{
-			makeGraphic(50, 50, 0xFF900000);
+			makeGraphic(50, 50, 0xFF905000);
 			
 			p = new FlxPath();
 			p.addPoint(target, true);
@@ -33,23 +34,27 @@ package com.longloaf.hell
 		override public function reset(X:Number, Y:Number):void 
 		{
 			super.reset(X, Y);
+			T = R.range(1, 5);
 			V = R.range(50, 100);
 			newTarget();
 		}
 		
 		override public function update():void 
 		{
-			if (pathSpeed == 0) {
+			t += FlxG.elapsed;
+			if ((t > T) || (pathSpeed == 0)) {
 				newTarget();
 			}
+			//player.getMidpoint(target);
 		}
 		
 		private function newTarget():void
 		{
-			target.x = 2 * HellState.TS + FlxG.random() * (map.width - 4 * HellState.TS);
-			target.y = 2 * HellState.TS + FlxG.random() * (map.height - 4 * HellState.TS);
+			player.getMidpoint(target);
 			
 			followPath(p, V);
+			
+			t = 0;
 		}
 		
 	}
