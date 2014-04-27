@@ -1,6 +1,7 @@
 package com.longloaf.hell 
 {
 	import org.flixel.FlxG;
+	import org.flixel.FlxPoint;
 	import org.flixel.FlxSprite;
 	import org.flixel.FlxU;
 	/**
@@ -11,6 +12,12 @@ package com.longloaf.hell
 	{
 		
 		private static const ACC:Number = 700;
+		
+		private var midp:FlxPoint = new FlxPoint();
+		
+		public var bulletGroup:BulletGroup = null;
+		private const BT:Number = 0.5;
+		private var bt:Number = 0;
 		
 		public function Player() 
 		{
@@ -36,6 +43,27 @@ package com.longloaf.hell
 			}
 			if (FlxG.keys.DOWN || FlxG.keys.S) {
 				acceleration.y += ACC;
+			}
+			
+			getMidpoint(midp);
+			
+			updateBullets();
+		}
+		
+		private function updateBullets():void
+		{
+			if (bulletGroup == null) {
+				return;
+			}
+			
+			if (bt > 0) {
+				bt -= FlxG.elapsed;
+			}
+			if (FlxG.mouse.pressed()) {
+				if (bt <= 0) {
+					bulletGroup.makeBullet(midp, FlxG.mouse);
+					bt += BT;
+				}
 			}
 		}
 		

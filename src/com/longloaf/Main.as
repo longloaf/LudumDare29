@@ -2,7 +2,7 @@ package com.longloaf
 {
 	import org.flixel.FlxGame;
 	
-	[SWF(width = "800", height = "544", backgroundColor = "#000000")]
+	[SWF(width = "800", height = "600", backgroundColor = "#000000")]
 	[Frame(factoryClass = "com.longloaf.Preloader")]
 	
 	/**
