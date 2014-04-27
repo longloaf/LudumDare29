@@ -8,8 +8,8 @@ package com.longloaf.hole
 	 */
 	public class SpikeGroup extends FlxGroup
 	{
-		private const DMIN:Number = 200;
-		private const DMAX:Number = 500;
+		private const DMIN:Number = 400;
+		private const DMAX:Number = 800;
 		
 		private var y:Number = 1000;
 		

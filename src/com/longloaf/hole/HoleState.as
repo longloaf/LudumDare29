@@ -3,6 +3,7 @@ package com.longloaf.hole
 	import com.longloaf.TestMenu;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
+	import org.flixel.FlxObject;
 	import org.flixel.FlxSprite;
 	import org.flixel.FlxState;
 	import org.flixel.FlxText;
@@ -28,7 +29,7 @@ package com.longloaf.hole
 		{
 			FOBJ = new FlxSprite();
 			FOBJ.reset(0, FlxG.height);
-			FOBJ.velocity.y = 50;
+			FOBJ.velocity.y = 400;
 			FOBJ.acceleration.y = 5;
 			FOBJ.visible = false;
 			add(FOBJ);
@@ -71,11 +72,21 @@ package com.longloaf.hole
 			
 			super.update();
 			
+			FlxG.overlap(player, spikeGroup, ovPlayerSpikes);
+			
 			velText.text = int(FOBJ.velocity.y).toString();
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());
+			} else if (FlxG.keys.justPressed("ENTER")) {
+				FlxG.resetState();
 			}
+		}
+		
+		private function ovPlayerSpikes(o1:FlxObject, o2:FlxObject):void
+		{
+			FOBJ.velocity.y = FOBJ.acceleration.y = 0;
+			player.active = false;
 		}
 		
 	}
