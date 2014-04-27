@@ -22,7 +22,7 @@ package com.longloaf.hole
 		
 		private var player:Player;
 		
-		private var spikeGroup:FlxGroup;
+		private var spikeGroup:SpikeGroup;
 		
 		override public function create():void 
 		{
@@ -46,7 +46,7 @@ package com.longloaf.hole
 			
 			player = new Player();
 			
-			spikeGroup = new FlxGroup();
+			spikeGroup = new SpikeGroup();
 			
 			velText = new FlxText(0, 0, FlxG.width, "?");
 			velText.size = 16;
@@ -61,11 +61,13 @@ package com.longloaf.hole
 		
 		override public function update():void 
 		{
+			/*
 			if (FlxG.keys.justPressed("ONE")) {
 				makeSpikes1();
 			} else if (FlxG.keys.justPressed("TWO")) {
 				makeSpikes2();
 			}
+			*/
 			
 			super.update();
 			
@@ -73,23 +75,6 @@ package com.longloaf.hole
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());
-			}
-		}
-		
-		private function makeSpikes1():void
-		{
-			var s:Spikes = spikeGroup.recycle(Spikes) as Spikes;
-			s.resetSpikes(int(FlxG.random() *  3));
-		}
-		
-		private function makeSpikes2():void
-		{
-			var n:int = int(FlxG.random() * Spikes.POSNUM);
-			for (var i:int = 0; i < Spikes.POSNUM; ++i) {
-				if (i != n) {
-					var s:Spikes = spikeGroup.recycle(Spikes) as Spikes;
-					s.resetSpikes(i);
-				}
 			}
 		}
 		
