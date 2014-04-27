@@ -1,5 +1,6 @@
 package com.longloaf.hell 
 {
+	import com.longloaf.Enemy;
 	import com.longloaf.util.R;
 	import org.flixel.FlxG;
 	import org.flixel.FlxObject;
@@ -11,7 +12,7 @@ package com.longloaf.hell
 	 * ...
 	 * @author Maksim Soldatov
 	 */
-	public class Enemy01 extends FlxSprite
+	public class Enemy01 extends Enemy
 	{
 		
 		public var map:FlxTilemap = null;
@@ -28,6 +29,8 @@ package com.longloaf.hell
 			
 			p = new FlxPath();
 			p.addPoint(target, true);
+			
+			enemyHealth = 3;
 		}
 		
 		override public function reset(X:Number, Y:Number):void 

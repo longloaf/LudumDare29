@@ -1,5 +1,6 @@
 package com.longloaf.hell 
 {
+	import com.longloaf.Enemy;
 	import com.longloaf.TestMenu;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
@@ -67,6 +68,7 @@ package com.longloaf.hell
 			super.update();
 			
 			FlxG.collide(player, tileMap);
+			FlxG.overlap(bulletGroup, enemyGroup, ovBulletEnemy);
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());
@@ -75,9 +77,10 @@ package com.longloaf.hell
 			}
 		}
 		
-		private function ovBullet(o1:FlxObject, o2:FlxObject):void
+		private function ovBulletEnemy(o1:FlxObject, o2:FlxObject):void
 		{
 			o1.kill();
+			(o2 as Enemy).hit();
 		}
 		
 	}
