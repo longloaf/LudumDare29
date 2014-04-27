@@ -16,7 +16,7 @@ package com.longloaf.hell
 		
 		public function Bullet() 
 		{
-			makeGraphic(10, 10, 0xFFFFFF00);
+			makeGraphic(20, 20, 0xFFFFFF00);
 		}
 		
 		override public function reset(X:Number, Y:Number):void 

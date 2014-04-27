@@ -11,7 +11,10 @@ package com.longloaf.hell
 	public class Player extends FlxSprite
 	{
 		
-		private static const ACC:Number = 700;
+		private const ACC:Number = 1000;
+		
+		private const V1:Number = 30;
+		private const V2:Number = 300;
 		
 		private var midp:FlxPoint = new FlxPoint();
 		
@@ -23,12 +26,12 @@ package com.longloaf.hell
 		{
 			makeGraphic(50, 50, FlxU.makeColorFromHSB(100, 0.7, 0.7));
 			
-			maxVelocity.x = maxVelocity.y = 300;
-			drag.x = drag.y = ACC;
+			maxVelocity.make(V2, V2);
+			drag.make(ACC, ACC);
 		}
 		
 		override public function update():void 
-		{
+		{	
 			acceleration.make();
 			
 			if (FlxG.keys.LEFT || FlxG.keys.A) {
@@ -48,6 +51,12 @@ package com.longloaf.hell
 			getMidpoint(midp);
 			
 			updateBullets();
+			//if (bt > 0) {
+			if (FlxG.mouse.pressed()) {
+				maxVelocity.make(V1, V1);
+			} else {
+				maxVelocity.make(V2, V2);
+			}
 		}
 		
 		private function updateBullets():void

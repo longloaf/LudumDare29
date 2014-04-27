@@ -24,6 +24,8 @@ package com.longloaf.hell
 		
 		private var player:Player;
 		
+		private var objGroup:FlxGroup;
+		
 		private var bulletGroup:BulletGroup;
 		
 		override public function create():void 
@@ -31,16 +33,19 @@ package com.longloaf.hell
 			tileMap = new FlxTilemap();
 			tileMap.loadMap(new Map(), Tiles, TS, TS, FlxTilemap.OFF, 0, 0, 1);
 			
+			objGroup = new FlxGroup();
+			
 			bulletGroup = new BulletGroup();
 			
 			player = new Player();
-			player.reset(6 * TS, 6 * TS);
+			player.reset((tileMap.width - player.width) / 2, (tileMap.height - player.height) / 2);
 			player.bulletGroup = bulletGroup;
 			
 			FlxG.camera.follow(player);
-			tileMap.follow();
+			tileMap.follow(FlxG.camera, 1);
 			
 			add(tileMap);
+			add(objGroup);
 			add(player);
 			add(bulletGroup);
 		}
@@ -50,7 +55,6 @@ package com.longloaf.hell
 			super.update();
 			
 			FlxG.collide(player, tileMap);
-			FlxG.collide(bulletGroup, tileMap, ovBullet);
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());
