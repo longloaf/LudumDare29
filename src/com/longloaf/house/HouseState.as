@@ -69,6 +69,8 @@ package com.longloaf.house
 			mouseText.size = 16;
 			mouseText.y = triggerText.y - 20;
 			add(mouseText);
+			
+			FlxG.flash(FlxG.BLACK);
 		}
 		
 		override public function update():void 

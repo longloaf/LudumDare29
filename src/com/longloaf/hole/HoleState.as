@@ -65,6 +65,8 @@ package com.longloaf.hole
 			add(spikeGroup);
 			add(velText);
 			add(spikeText);
+			
+			FlxG.flash(FlxG.BLACK);
 		}
 		
 		override public function update():void 

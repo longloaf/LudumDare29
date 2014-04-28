@@ -40,6 +40,13 @@ package com.longloaf.house
 			y = p.y - height / 2;
 		}
 		
+		public function jump():void
+		{
+			acceleration.y = 2000;
+			velocity.x = 300;
+			velocity.y = -600;
+		}
+		
 		override public function update():void 
 		{
 			if (pathFlag && (pathSpeed == 0)) {
