@@ -21,12 +21,17 @@ package com.longloaf.house
 		private var room1Point:FlxPoint = new FlxPoint(560, 600);
 		private var room4Point:FlxPoint = new FlxPoint(660, 490);
 		
+		public var key2Trigger:Key2Trigger;
+		
 		public function Room3(h:HouseState) 
 		{
 			super(h);
 			
 			var bg:FlxSprite = new FlxSprite(0, 0, BG);
 			add(bg);
+			
+			key2Trigger = new Key2Trigger(h);
+			add(key2Trigger);
 			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 3");
 			txt.alignment = "center";

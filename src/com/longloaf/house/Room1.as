@@ -14,11 +14,6 @@ package com.longloaf.house
 		[Embed(source = "data/image/room1.png")]
 		private static const BG:Class;
 		
-		/*
-		private var r3Arr:Trigger;
-		private var r2Arr:Trigger;
-		*/
-		
 		private var mainPoint:FlxPoint = new FlxPoint(420, 500);
 		private var room2Point:FlxPoint = new FlxPoint(670, 430);
 		private var room3Point:FlxPoint = new FlxPoint(330, 430);
@@ -82,7 +77,7 @@ package com.longloaf.house
 			door2Trigger = new DoorTrigger(h);
 			door2Trigger.x = openedDoor2Trigger.x;
 			door2Trigger.y = openedDoor2Trigger.y;
-			door2Trigger.item = HouseState.NO_ITEM;
+			door2Trigger.item = HouseState.KEY2_ITEM;
 			door2Trigger.openedDoorTrigger = openedDoor2Trigger;
 			add(door2Trigger);
 			
@@ -90,31 +85,6 @@ package com.longloaf.house
 			txt.alignment = "center";
 			txt.size = 16;
 			add(txt);
-			
-			/*
-			r3Arr = new Trigger(houseState);
-			r3Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
-			r3Arr.angle = -90;
-			r3Arr.x = 400;
-			r3Arr.onClick = function():void
-			{
-				houseState.triggerFlagOff();
-				player.gotoPoint(room3Point, gotoRoom3);
-			};
-			add(r3Arr);
-			*/
-			
-			/*
-			r2Arr = new Trigger(houseState);
-			r2Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
-			r2Arr.x = 700;
-			r2Arr.onClick = function():void
-			{
-				houseState.triggerFlagOff();
-				player.gotoPoint(room2Point, gotoRoom2);
-			};
-			add(r2Arr);
-			*/
 			
 			add(player);
 		}
