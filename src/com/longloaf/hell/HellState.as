@@ -42,6 +42,7 @@ package com.longloaf.hell
 		private const T:Number = 0.5;
 		private var t:Number = 0;
 		
+		private var mushr:Mushr;
 		
 		override public function create():void 
 		{
@@ -63,6 +64,12 @@ package com.longloaf.hell
 			
 			FlxG.camera.follow(player);
 			tileMap.follow(FlxG.camera, 1);
+			
+			mushr = new Mushr();
+			mushr.player = player;
+			mushr.exists = false;
+			mushr.x = -mushr.width;
+			mushr.y = -mushr.height;
 			
 			add(tileMap);
 			add(deadPlayers);
@@ -120,6 +127,10 @@ package com.longloaf.hell
 					e02.player = player;
 					e02.reset(ex, ey);
 				}
+				if ((enemyCount > ENEMY_COUNT) && !mushr.exists) {
+					mushr.reset(ex, ey);
+					enemyGroup.add(mushr);
+				}
 			}
 			
 			super.update();
@@ -127,6 +138,7 @@ package com.longloaf.hell
 			FlxG.collide(player, tileMap);
 			FlxG.overlap(bulletGroup, enemyGroup, ovBulletEnemy);
 			FlxG.overlap(player, enemyGroup, ovPlayerEnemy);
+			FlxG.overlap(player, mushr, ovPlayerMushr);
 			
 			enemyGroup.sort();
 			
@@ -154,6 +166,12 @@ package com.longloaf.hell
 				FlxG.play(Snd.DEATH02);
 				FlxG.fade(FlxG.BLACK, 1, FlxG.resetState);
 			}
+		}
+		
+		private function ovPlayerMushr(o1:FlxObject, o2:FlxObject):void
+		{
+			FlxG.play(Snd.MUSHR);
+			mushr.kill();
 		}
 		
 	}
