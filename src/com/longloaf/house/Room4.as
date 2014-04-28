@@ -1,7 +1,6 @@
 package com.longloaf.house 
 {
 	import com.longloaf.hole.HoleState;
-	import com.longloaf.house.data.Assets;
 	import org.flixel.FlxG;
 	import org.flixel.FlxPoint;
 	import org.flixel.FlxSprite;

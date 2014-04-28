@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="hole.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4249"
+       inkscape:collect="always">
+      <stop
+         id="stop4251"
+         offset="0"
+         style="stop-color:#552200;stop-opacity:1" />
+      <stop
+         id="stop4253"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4243">
+      <stop
+         style="stop-color:#552200;stop-opacity:1"
+         offset="0"
+         id="stop4245" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4247" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4237">
+      <stop
+         style="stop-color:#552200;stop-opacity:1"
+         offset="0"
+         id="stop4239" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4241" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4221">
+      <stop
+         style="stop-color:#552200;stop-opacity:1"
+         offset="0"
+         id="stop4223" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4225" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4215">
+      <stop
+         style="stop-color:#552200;stop-opacity:1"
+         offset="0"
+         id="stop4217" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4219" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4209">
+      <stop
+         style="stop-color:#552200;stop-opacity:1"
+         offset="0"
+         id="stop4211" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4213" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4203">
+      <stop
+         style="stop-color:#552200;stop-opacity:1"
+         offset="0"
+         id="stop4205" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4207" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4139"
+       inkscape:collect="always">
+      <stop
+         id="stop4141"
+         offset="0"
+         style="stop-color:#c83737;stop-opacity:1" />
+      <stop
+         id="stop4143"
+         offset="1"
+         style="stop-color:#999999;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4133"
+       inkscape:collect="always">
+      <stop
+         id="stop4135"
+         offset="0"
+         style="stop-color:#c83737;stop-opacity:1" />
+      <stop
+         id="stop4137"
+         offset="1"
+         style="stop-color:#999999;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4127"
+       inkscape:collect="always">
+      <stop
+         id="stop4129"
+         offset="0"
+         style="stop-color:#c83737;stop-opacity:1" />
+      <stop
+         id="stop4131"
+         offset="1"
+         style="stop-color:#999999;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4121"
+       inkscape:collect="always">
+      <stop
+         id="stop4123"
+         offset="0"
+         style="stop-color:#c83737;stop-opacity:1" />
+      <stop
+         id="stop4125"
+         offset="1"
+         style="stop-color:#999999;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4115"
+       inkscape:collect="always">
+      <stop
+         id="stop4117"
+         offset="0"
+         style="stop-color:#c83737;stop-opacity:1" />
+      <stop
+         id="stop4119"
+         offset="1"
+         style="stop-color:#999999;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4109"
+       inkscape:collect="always">
+      <stop
+         id="stop4111"
+         offset="0"
+         style="stop-color:#c83737;stop-opacity:1" />
+      <stop
+         id="stop4113"
+         offset="1"
+         style="stop-color:#999999;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4077">
+      <stop
+         style="stop-color:#c83737;stop-opacity:1"
+         offset="0"
+         id="stop4079" />
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="1"
+         id="stop4081" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4005">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop4007" />
+      <stop
+         id="stop4009"
+         offset="1"
+         style="stop-color:#666666;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3997">
+      <stop
+         style="stop-color:#28170b;stop-opacity:1"
+         offset="0"
+         id="stop3999" />
+      <stop
+         id="stop4001"
+         offset="0.71970814"
+         style="stop-color:#6c5d53;stop-opacity:1" />
+      <stop
+         style="stop-color:#28170b;stop-opacity:1"
+         offset="1"
+         id="stop4003" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3949">
+      <stop
+         id="stop3951"
+         offset="0"
+         style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop
+         style="stop-color:#666666;stop-opacity:1"
+         offset="0.71970814"
+         id="stop3953" />
+      <stop
+         id="stop3955"
+         offset="1"
+         style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3941">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3943" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3945" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3929">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop3931" />
+      <stop
+         id="stop3939"
+         offset="0.72475892"
+         style="stop-color:#333333;stop-opacity:1" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop3933" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3825">
+      <stop
+         style="stop-color:#292929;stop-opacity:1;"
+         offset="0"
+         id="stop3827" />
+      <stop
+         id="stop3843"
+         offset="0.5"
+         style="stop-color:#676767;stop-opacity:1;" />
+      <stop
+         style="stop-color:#0b0b0b;stop-opacity:1;"
+         offset="1"
+         id="stop3829" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3815">
+      <stop
+         style="stop-color:#241f1c;stop-opacity:1"
+         offset="0"
+         id="stop3817" />
+      <stop
+         id="stop3823"
+         offset="0.71465743"
+         style="stop-color:#a05a2c;stop-opacity:1" />
+      <stop
+         style="stop-color:#241f1c;stop-opacity:1"
+         offset="1"
+         id="stop3819" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3815"
+       id="linearGradient3821"
+       x1="108.57143"
+       y1="512.36218"
+       x2="508.57144"
+       y2="512.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3833"
+       x1="108.57143"
+       y1="629.04999"
+       x2="508.57143"
+       y2="629.04999"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3835"
+       x1="108.57143"
+       y1="611.87738"
+       x2="508.57143"
+       y2="611.87738"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3837"
+       x1="108.57143"
+       y1="580.13373"
+       x2="508.57143"
+       y2="580.13373"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3839"
+       x1="108.57143"
+       y1="464.39514"
+       x2="508.57143"
+       y2="464.39514"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3841"
+       x1="108.57143"
+       y1="364.39001"
+       x2="508.57143"
+       y2="364.39001"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3885"
+       gradientUnits="userSpaceOnUse"
+       x1="108.57143"
+       y1="580.13373"
+       x2="508.57143"
+       y2="580.13373" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3887"
+       gradientUnits="userSpaceOnUse"
+       x1="108.57143"
+       y1="611.87738"
+       x2="508.57143"
+       y2="611.87738" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3889"
+       gradientUnits="userSpaceOnUse"
+       x1="108.57143"
+       y1="629.04999"
+       x2="508.57143"
+       y2="629.04999" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3891"
+       gradientUnits="userSpaceOnUse"
+       x1="108.57143"
+       y1="364.39001"
+       x2="508.57143"
+       y2="364.39001" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3825"
+       id="linearGradient3893"
+       gradientUnits="userSpaceOnUse"
+       x1="108.57143"
+       y1="464.39514"
+       x2="508.57143"
+       y2="464.39514" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3929"
+       id="linearGradient3937"
+       x1="108.57143"
+       y1="512.36218"
+       x2="508.57141"
+       y2="512.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3997"
+       id="linearGradient4041"
+       x1="108.57143"
+       y1="537.1261"
+       x2="508.57144"
+       y2="537.1261"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4109"
+       id="linearGradient4083"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-209.4161,34.07877)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4077"
+       id="linearGradient4087"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-82.273242,34.07877)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4139"
+       id="linearGradient4091"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-103.46373,34.07877)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4133"
+       id="linearGradient4095"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-124.65419,34.07877)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4127"
+       id="linearGradient4099"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-145.84467,34.07877)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4121"
+       id="linearGradient4103"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-167.03513,34.07877)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4115"
+       id="linearGradient4107"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-188.22561,34.07877)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4203"
+       id="linearGradient4189"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,-3.344981,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4249"
+       id="linearGradient4191"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,123.79788,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4243"
+       id="linearGradient4193"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,102.60739,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4237"
+       id="linearGradient4195"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,81.416929,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4221"
+       id="linearGradient4197"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,60.226449,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4215"
+       id="linearGradient4199"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,39.035989,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4209"
+       id="linearGradient4201"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.97745302,17.845509,39.634609)"
+       x1="346.42313"
+       y1="768.01074"
+       x2="351.64078"
+       y2="894.50507" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="413.22547"
+     inkscape:cy="109.15085"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-nodes="true"
+     inkscape:snap-center="false"
+     inkscape:snap-object-midpoints="false"
+     inkscape:object-nodes="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient3821);stroke:none;fill-opacity:1"
+       id="rect2985"
+       width="400"
+       height="400"
+       x="108.57143"
+       y="312.36218"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3845"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill-opacity:1;fill:url(#linearGradient3937)">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="312.36218"
+         x="108.57143"
+         height="400"
+         width="5"
+         id="rect3011"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none"
+         id="rect3013"
+         width="5"
+         height="400"
+         x="130.92282"
+         y="312.36218" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="312.36218"
+         x="166.67606"
+         height="400"
+         width="5"
+         id="rect3015"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none"
+         id="rect3017"
+         width="5"
+         height="400"
+         x="216.08708"
+         y="312.36218" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="312.36218"
+         x="274.31918"
+         height="400"
+         width="5"
+         id="rect3019"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none"
+         id="rect3021"
+         width="5"
+         height="400"
+         x="335.67221"
+         y="312.36218" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="312.36218"
+         x="394.14053"
+         height="400"
+         width="5"
+         id="rect3023"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none"
+         id="rect3025"
+         width="5"
+         height="400"
+         x="503.57141"
+         y="312.36218" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none"
+         id="rect3029"
+         width="5"
+         height="400"
+         x="444.00079"
+         y="312.36218" />
+      <rect
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         y="312.36218"
+         x="480.37238"
+         height="400"
+         width="5"
+         id="rect3033"
+         style="fill:url(#linearGradient3937);fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="path2987"
+       sodipodi:cx="106.42857"
+       sodipodi:cy="113.07647"
+       sodipodi:rx="39.285713"
+       sodipodi:ry="62.142857"
+       d="m 145.71429,113.07647 a 39.285713,62.142857 0 1 1 -78.57143,0 39.285713,62.142857 0 1 1 78.57143,0 z"
+       transform="matrix(5.0909092,0,0,3.2183908,-233.24678,-388.70495)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="path2989"
+       sodipodi:sides="20"
+       sodipodi:cx="72.85714"
+       sodipodi:cy="-224.78069"
+       sodipodi:r1="247.27493"
+       sodipodi:r2="74.182487"
+       sodipodi:arg1="1.1226514"
+       sodipodi:arg2="1.279731"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 179.99998,-1.9235475 94.145504,-153.71841 105.88939,20.278007 71.144126,-150.61798 28.54538,18.491509 48.31043,-154.77711 -44.46109,-7.1081668 27.879537,-165.78868 -105.98363,-54.015145 11.851366,-182.5748 -150,-117.63784 1.794864,-203.49232 -172.20155,-191.74843 -1.3055669,-226.4937 -170.41505,-269.09244 2.8535646,-249.32739 -144.81538,-342.09892 l 158.680514,72.34063 -111.773535,-133.86317 128.559652,117.835 -64.936953,-161.85136 85.854478,151.79486 -11.743891,-173.99642 34.745268,170.89599 42.598747,-169.10949 -19.765051,173.26862 92.771521,-147.66894 -72.34063,158.68051 133.86317,-111.77354 -117.835,128.55966 161.85137,-64.93696 -151.79486,85.85448 173.99641,-11.74389 -170.89598,34.74527 169.10948,42.59874 -173.26862,-19.76505 147.66895,92.77152 -158.68051,-72.34062 111.77353,133.863169 -128.55965,-117.834999 z"
+       inkscape:transform-center-x="42.354257"
+       inkscape:transform-center-y="8.1067417"
+       transform="matrix(0.79293971,-0.0133744,0.0133744,0.79293971,253.93711,155.1467)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="path2991"
+       sodipodi:cx="90.35714"
+       sodipodi:cy="116.29076"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       transform="translate(24.470001,-110.88591)" />
+    <path
+       transform="translate(43.06568,-52.417614)"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="116.29076"
+       sodipodi:cx="90.35714"
+       id="path2993"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="path2995"
+       sodipodi:cx="90.35714"
+       sodipodi:cy="116.29076"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       transform="translate(78.818918,-2.557342)" />
+    <path
+       transform="translate(128.22994,33.814236)"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="116.29076"
+       sodipodi:cx="90.35714"
+       id="path2997"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="path2999"
+       sodipodi:cx="90.35714"
+       sodipodi:cy="116.29076"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       transform="translate(186.46205,53.136818)" />
+    <path
+       transform="translate(247.81508,53.518973)"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="116.29076"
+       sodipodi:cx="90.35714"
+       id="path3001"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="path3003"
+       sodipodi:cx="90.35714"
+       sodipodi:cy="116.29076"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       transform="translate(306.28338,34.923295)" />
+    <path
+       transform="translate(356.14365,-0.82994314)"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="116.29076"
+       sodipodi:cx="90.35714"
+       id="path3005"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="path3007"
+       sodipodi:cx="90.35714"
+       sodipodi:cy="116.29076"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       transform="translate(392.51523,-50.240965)" />
+    <path
+       transform="translate(411.83781,-108.47307)"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="116.29076"
+       sodipodi:cx="90.35714"
+       id="path3009"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <g
+       id="g3921"
+       style="fill:#000000;fill-opacity:1"
+       transform="translate(0,-6.616754)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3037"
+         width="400"
+         height="20"
+         x="108.57143"
+         y="570.13373"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="609.37738"
+         x="108.57143"
+         height="5"
+         width="400"
+         id="rect3039"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3041"
+         width="400"
+         height="5"
+         x="108.57143"
+         y="626.54999"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3043"
+         width="400"
+         height="5"
+         x="108.57143"
+         y="361.89001"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="461.89514"
+         x="108.57143"
+         height="5"
+         width="400"
+         id="rect3045"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="692.36218"
+         x="108.57143"
+         height="20"
+         width="400"
+         id="rect3035"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       transform="translate(0,-13.045325)"
+       style="fill:url(#linearGradient4041);fill-opacity:1.0"
+       id="g3969"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="570.13373"
+         x="108.57143"
+         height="20"
+         width="400"
+         id="rect3971"
+         style="fill:url(#linearGradient4041);fill-opacity:1.0;stroke:none" />
+      <rect
+         style="fill:url(#linearGradient4041);fill-opacity:1.0;stroke:none"
+         id="rect3973"
+         width="400"
+         height="5"
+         x="108.57143"
+         y="609.37738"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="626.54999"
+         x="108.57143"
+         height="5"
+         width="400"
+         id="rect3975"
+         style="fill:url(#linearGradient4041);fill-opacity:1.0;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         y="361.89001"
+         x="108.57143"
+         height="5"
+         width="400"
+         id="rect3977"
+         style="fill:url(#linearGradient4041);fill-opacity:1.0;stroke:none" />
+      <rect
+         style="fill:url(#linearGradient4041);fill-opacity:1.0;stroke:none"
+         id="rect3979"
+         width="400"
+         height="5"
+         x="108.57143"
+         y="461.89514"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:url(#linearGradient4041);fill-opacity:1.0;stroke:none"
+         id="rect3981"
+         width="400"
+         height="20"
+         x="108.57143"
+         y="692.36218"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\hole_400x400.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+    <path
+       transform="translate(306.28338,34.923295)"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       sodipodi:ry="6.7857141"
+       sodipodi:rx="6.7857141"
+       sodipodi:cy="116.29076"
+       sodipodi:cx="90.35714"
+       id="path3027"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="path3031"
+       sodipodi:cx="90.35714"
+       sodipodi:cy="116.29076"
+       sodipodi:rx="6.7857141"
+       sodipodi:ry="6.7857141"
+       d="m 97.142854,116.29076 a 6.7857141,6.7857141 0 1 1 -13.571429,0 6.7857141,6.7857141 0 1 1 13.571429,0 z"
+       transform="translate(356.14365,-0.82994314)" />
+    <rect
+       style="fill:#28170b;fill-opacity:1;stroke:none"
+       id="rect4043"
+       width="150"
+       height="150"
+       x="125.764"
+       y="781.64893"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="rect4069"
+       width="7.4999971"
+       height="11.090652"
+       x="268.26401"
+       y="913.77252"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4298">
+      <path
+         id="rect4045"
+         d="M 125.75 908.40625 L 125.75 913.40625 L 133.25 913.40625 L 133.25 924.5 L 125.75 924.5 L 125.75 931.65625 L 275.75 931.65625 L 275.75 908.40625 L 125.75 908.40625 z M 140 913.78125 L 147.5 913.78125 L 147.5 924.875 L 140 924.875 L 140 913.78125 z M 154.25 913.78125 L 161.75 913.78125 L 161.75 924.875 L 154.25 924.875 L 154.25 913.78125 z M 168.5 913.78125 L 176 913.78125 L 176 924.875 L 168.5 924.875 L 168.5 913.78125 z M 182.75 913.78125 L 190.25 913.78125 L 190.25 924.875 L 182.75 924.875 L 182.75 913.78125 z M 197 913.78125 L 204.5 913.78125 L 204.5 924.875 L 197 924.875 L 197 913.78125 z M 211.25 913.78125 L 218.75 913.78125 L 218.75 924.875 L 211.25 924.875 L 211.25 913.78125 z M 225.5 913.78125 L 233 913.78125 L 233 924.875 L 225.5 924.875 L 225.5 913.78125 z M 239.75 913.78125 L 247.25 913.78125 L 247.25 924.875 L 239.75 924.875 L 239.75 913.78125 z M 254 913.78125 L 261.5 913.78125 L 261.5 924.875 L 254 924.875 L 254 913.78125 z "
+         style="fill:#28170b;fill-opacity:1;stroke:none" />
+      <path
+         id="rect4047"
+         d="M 133.25 913.78125 L 133.25 924.5 L 125.75 924.5 L 125.75 931.65625 L 275.75 931.65625 L 275.75 924.875 L 268.25 924.875 L 268.25 913.78125 L 261.5 913.78125 L 261.5 924.875 L 254 924.875 L 254 913.78125 L 247.25 913.78125 L 247.25 924.875 L 239.75 924.875 L 239.75 913.78125 L 233 913.78125 L 233 924.875 L 225.5 924.875 L 225.5 913.78125 L 218.75 913.78125 L 218.75 924.875 L 211.25 924.875 L 211.25 913.78125 L 204.5 913.78125 L 204.5 924.875 L 197 924.875 L 197 913.78125 L 190.25 913.78125 L 190.25 924.875 L 182.75 924.875 L 182.75 913.78125 L 176 913.78125 L 176 924.875 L 168.5 924.875 L 168.5 913.78125 L 161.75 913.78125 L 161.75 924.875 L 154.25 924.875 L 154.25 913.78125 L 147.5 913.78125 L 147.5 924.875 L 140 924.875 L 140 913.78125 L 133.25 913.78125 z "
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+         y="913.77252"
+         x="125.764"
+         height="2.6977952"
+         width="150"
+         id="rect4071"
+         style="fill:#1a1a1a;fill-opacity:0.54117647;stroke:none" />
+    </g>
+    <path
+       style="fill:url(#linearGradient4083);fill-opacity:1;stroke:none"
+       d="m 128.92073,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4073"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4085"
+       d="m 256.06358,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4087);fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient4091);fill-opacity:1;stroke:none"
+       d="m 234.87309,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4089"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4093"
+       d="m 213.68263,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4095);fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient4099);fill-opacity:1;stroke:none"
+       d="m 192.49215,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4097"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4101"
+       d="m 171.30169,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4103);fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient4107);fill-opacity:1;stroke:none"
+       d="m 150.11121,908.41542 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4105"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       y="787.20477"
+       x="331.83511"
+       height="150"
+       width="150"
+       id="rect4145"
+       style="fill:#28170b;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4175"
+       d="m 334.99185,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4189);fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       style="fill:url(#linearGradient4191);fill-opacity:1;stroke:none"
+       d="m 462.1347,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4177"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4179"
+       d="m 440.94421,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4193);fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       style="fill:url(#linearGradient4195);fill-opacity:1;stroke:none"
+       d="m 419.75375,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4181"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4183"
+       d="m 398.56327,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4197);fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       style="fill:url(#linearGradient4199);fill-opacity:1;stroke:none"
+       d="m 377.37281,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       id="path4185"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4187"
+       d="m 356.18233,913.97126 2.02031,-58.29809 5.71429,-65.56433 5.44815,65.5405 2.14658,58.32192 z"
+       style="fill:url(#linearGradient4201);fill-opacity:1;stroke:none" />
+    <g
+       id="g4325"
+       transform="translate(-7.8434565,-36.406837)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path4305"
+         d="m 339.67857,950.36161 0,5 7.5,0 0,11.09375 -7.5,0 0,7.15625 150,0 0,-6.78125 -7.5,0 0,-11.09375 7.5,0 0,-5.375 -150,0 z m 14.25,5.375 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z m 14.25,0 7.5,0 0,11.09375 -7.5,0 0,-11.09375 z"
+         style="fill:#28170b;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+         d="m 347.17857,955.73661 0,10.71875 -7.5,0 0,7.15625 150,0 0,-6.78125 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 0,11.09375 -7.5,0 0,-11.09375 -6.75,0 z"
+         id="path4307"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#1a1a1a;fill-opacity:0.54117647;stroke:none"
+         id="rect4309"
+         width="150"
+         height="4.6620808"
+         x="339.67856"
+         y="955.36163"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hole\data\image\spikes_150x150.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+  </g>
+</svg>

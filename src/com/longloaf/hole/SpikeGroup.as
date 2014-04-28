@@ -14,6 +14,7 @@ package com.longloaf.hole
 		private var y:Number = 1000;
 		
 		public var count:int = 0;
+		public static const MAX_COUNT:int = 50;
 		
 		public function SpikeGroup() 
 		{
@@ -22,7 +23,7 @@ package com.longloaf.hole
 		
 		override public function update():void 
 		{
-			if (HoleState.FOBJ.y > y) {
+			if ((count < MAX_COUNT) && (HoleState.FOBJ.y > y)) {
 				if ((count > 10) && (FlxG.random() > 0.5)) {
 					makeSpikes2();
 				} else {

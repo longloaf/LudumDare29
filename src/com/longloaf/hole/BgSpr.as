@@ -7,7 +7,8 @@ package com.longloaf.hole
 	 */
 	public class BgSpr extends FlxSprite
 	{
-		[Embed(source = "bg_img.png")]
+		
+		[Embed(source = "data/image/hole_400x400.png")]
 		private static const Img:Class;
 		
 		public function BgSpr() 

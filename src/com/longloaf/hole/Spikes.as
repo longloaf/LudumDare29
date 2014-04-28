@@ -8,7 +8,10 @@ package com.longloaf.hole
 	 * @author Maksim Soldatov
 	 */
 	public class Spikes extends FlxSprite
-	{	
+	{
+		[Embed(source = "data/image/spikes_150x150.png")]
+		private static const Img:Class;
+		
 		public static const L:int = 0;
 		public static const C:int = 1;
 		public static const R:int = 2;
@@ -16,7 +19,9 @@ package com.longloaf.hole
 		
 		public function Spikes() 
 		{
-			makeGraphic(150, 150, FlxU.makeColorFromHSB(20, 0.8, 0.8));
+			loadGraphic(Img);
+			height = 120;
+			offset.y = 30;
 		}
 		
 		public function resetSpikes(pos:int):void
@@ -32,7 +37,7 @@ package com.longloaf.hole
 				throw new Error();
 			}
 			
-			reset(nx, FlxG.height);
+			reset(nx, FlxG.height + offset.y);
 		}
 		
 		override public function update():void 

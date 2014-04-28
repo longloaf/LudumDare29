@@ -28,6 +28,9 @@ package com.longloaf.hole
 		
 		private var spikeGroup:SpikeGroup;
 		
+		private const T:Number = 3;
+		private var t:Number = 0;
+		
 		override public function create():void 
 		{
 			FOBJ = new FlxSprite();
@@ -38,7 +41,7 @@ package com.longloaf.hole
 			add(FOBJ);
 			
 			var s1:FlxSprite = new FlxSprite();
-			s1.makeGraphic(FlxG.width, FlxG.height, FlxU.makeColorFromHSB(30, 0.2, 0.8));
+			s1.makeGraphic(FlxG.width, FlxG.height, FlxG.BLACK);
 			add(s1);
 			
 			var s2:FlxSprite = new FlxSprite();
@@ -77,6 +80,17 @@ package com.longloaf.hole
 			
 			FlxG.overlap(player, spikeGroup, ovPlayerSpikes);
 			
+			if (player.exists && (spikeGroup.count >= SpikeGroup.MAX_COUNT)) {
+				if (t < T) {
+					t += FlxG.elapsed;
+				} else {
+					FlxG.fade(FlxG.BLACK, 1, function():void
+					{
+						FlxG.switchState(new HellState());
+					});
+				}
+			}
+			
 			velText.text = "VEL: " + int(FOBJ.velocity.y).toString();
 			spikeText.text = "SPIKES: " + spikeGroup.count;
 			
@@ -94,7 +108,8 @@ package com.longloaf.hole
 		private function ovPlayerSpikes(o1:FlxObject, o2:FlxObject):void
 		{
 			FOBJ.velocity.y = FOBJ.acceleration.y = 0;
-			player.active = false;
+			player.kill();
+			FlxG.fade(FlxG.BLACK, 1, FlxG.resetState);
 		}
 		
 	}
