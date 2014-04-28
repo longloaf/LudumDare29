@@ -1,5 +1,6 @@
 package com.longloaf.hell 
 {
+	import com.longloaf.EndState;
 	import com.longloaf.hell.data.image.Mushr;
 	import com.longloaf.hell.Enemy;
 	import com.longloaf.Main;
@@ -36,7 +37,7 @@ package com.longloaf.hell
 		
 		private var bulletGroup:BulletGroup;
 		
-		private const ENEMY_COUNT:int = 10;
+		private const ENEMY_COUNT:int = 100;
 		private var enemyCount:int = 0;
 		
 		private const T:Number = 0.5;
@@ -170,8 +171,8 @@ package com.longloaf.hell
 		
 		private function ovPlayerMushr(o1:FlxObject, o2:FlxObject):void
 		{
-			FlxG.play(Snd.MUSHR);
 			mushr.kill();
+			FlxG.switchState(new EndState());
 		}
 		
 	}

@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
+     inkscape:zoom="0.9899495"
      inkscape:cx="60.404062"
-     inkscape:cy="299.13528"
+     inkscape:cy="238.52612"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3106,5 +3106,35 @@
        inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hell\data\image\enemy02_100x100_3.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffcc00;stroke:#000000;stroke-width:2.9564507;stroke-opacity:1"
+       id="path5388"
+       sodipodi:cx="-46.719555"
+       sodipodi:cy="876.84821"
+       sodipodi:rx="33.58757"
+       sodipodi:ry="23.486046"
+       d="m -13.131985,876.84821 a 33.58757,23.486046 0 1 1 -67.17514,0 33.58757,23.486046 0 1 1 67.17514,0 z"
+       transform="matrix(0.28284273,0,0,0.40449551,-57.592839,536.1531)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hell\data\image\bullet.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5398"
+       transform="matrix(0.22552868,0,0,0.22552868,385.43156,518.15585)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\hell\data\image\mushr.png">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5396"
+         d="m -232.33509,714.97123 c -0.62178,20.91545 4.14851,42.89707 0,63.63961 -4.71494,23.57473 -11.54891,45.93556 -21.2132,67.68022 -3.3929,7.63402 -10.10408,17.16493 -7.07107,26.26397 4.48875,13.46623 30.96864,32.83699 46.46702,21.2132 5.49198,-4.11899 13.24233,-25.31661 16.16244,-32.32488 5.19716,-12.47318 12.08674,-24.09162 15.15229,-37.37564 2.80428,-12.15189 3.10182,-50.66143 2.0203,-63.63961 -0.72532,-8.70388 -5.7557,-15.09419 -8.08122,-23.23351 -1.04132,-3.64464 -0.0963,-12.26632 -2.0203,-15.15229 -1.28687,-1.93031 -5.11972,-7.14002 -6.06092,-8.08122 -0.13145,-0.13145 -25.7769,-4.28414 -26.26396,-4.04061 -5.62174,2.81087 -6.8935,5.05076 -14.14214,5.05076"
+         style="fill:#ffffff;stroke:#000000;stroke-width:4.43402576px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5394"
+         d="m -327.28942,741.2352 c 22.75599,12.12441 47.24365,18.98562 72.73098,23.23351 19.15581,3.19263 37.13083,5.05076 56.56854,5.05076 7.21418,0 16.16124,1.41446 23.23351,0 8.7102,-1.74204 16.77787,-6.19768 25.25381,-8.08122 5.53511,-1.23002 11.65313,-0.91641 17.1726,-2.0203 3.06437,-0.61288 4.24605,-3.2359 6.06091,-5.05077 1.80535,-1.80534 4.02428,-0.49282 6.06092,-2.0203 7.10892,-5.33169 9.3125,-6.50317 13.13198,-14.14214 0.98454,-1.96907 11.075182,-9.12787 7.07107,-13.13198 -2.56095,-2.56095 -36.18503,-7.27849 -43.43656,-9.09137 -13.59779,-3.39945 -32.80465,-20.7889 -43.43656,-29.29443 -7.35181,-5.88145 -18.39693,-6.168 -26.26397,-10.10152 -3.86087,-1.93044 -19.8076,4.65531 -22.22335,7.07107 -11.95188,11.95187 -31.22977,26.83607 -47.47717,33.33503 -14.59987,5.83995 -31.28755,9.06419 -40.4061,18.18275 -0.50508,0.50507 -2.52538,-0.50508 -3.03046,0 -1.44828,1.44827 -0.60847,4.05251 -1.01015,6.06091 z"
+         style="fill:#803300;stroke:#000000;stroke-width:4.43402576px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
