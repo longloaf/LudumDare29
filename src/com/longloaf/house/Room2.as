@@ -19,6 +19,8 @@ package com.longloaf.house
 		private var mainPoint:FlxPoint = new FlxPoint(490, 490);
 		private var room1Point:FlxPoint = new FlxPoint(560, 600);
 		
+		private var crawbarTrigger:CrowbarTrigger;
+		
 		public function Room2(h:HouseState) 
 		{
 			super(h);
@@ -30,6 +32,9 @@ package com.longloaf.house
 			txt.alignment = "center";
 			txt.size = 16;
 			add(txt);
+			
+			crawbarTrigger = new CrowbarTrigger(h);
+			add(crawbarTrigger);
 			
 			downTrigger = new DownTrigger(h);
 			downTrigger.onClick = function():void
