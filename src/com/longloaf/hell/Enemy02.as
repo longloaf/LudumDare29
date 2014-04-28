@@ -12,6 +12,8 @@ package com.longloaf.hell
 	 */
 	public class Enemy02 extends Enemy
 	{
+		[Embed(source = "data/image/enemy02_100x100_3.png")]
+		private static const Img:Class;
 		
 		public var player:Player = null;
 		
@@ -26,7 +28,12 @@ package com.longloaf.hell
 		
 		public function Enemy02() 
 		{
-			makeGraphic(50, 50, 0xFF905000);
+			//makeGraphic(50, 50, 0xFF905000);
+			loadGraphic(Img, true, true, 100, 100);
+			width = height = 50;
+			centerOffsets();
+			addAnimation("1", [0, 1, 0, 2], 5);
+			play("1");
 			
 			p = new FlxPath();
 			p.addPoint(target, true);
@@ -48,6 +55,8 @@ package com.longloaf.hell
 			if ((t > T) || (pathSpeed == 0)) {
 				newTarget();
 			}
+			
+			facing = velocity.x >= 0 ? RIGHT : LEFT;
 		}
 		
 		private function newTarget():void

@@ -33,7 +33,7 @@ package com.longloaf.hell
 			centerOffsets();
 			//offset.y = 50;
 			
-			addAnimation("1", [0, 1, 2], 3);
+			addAnimation("1", [0, 1, 2], 6);
 			play("1");
 			
 			p = new FlxPath();
