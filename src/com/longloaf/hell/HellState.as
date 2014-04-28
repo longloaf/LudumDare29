@@ -61,6 +61,7 @@ package com.longloaf.hell
 			add(bulletGroup);
 			
 			FlxG.flash(FlxG.BLACK);
+			//
 		}
 		
 		override public function update():void 
