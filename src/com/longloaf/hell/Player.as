@@ -65,12 +65,13 @@ package com.longloaf.hell
 			getMidpoint(midp);
 			
 			updateBullets();
-			//if (bt > 0) {
+			/*
 			if (FlxG.mouse.pressed()) {
 				maxVelocity.make(V1, V1);
 			} else {
 				maxVelocity.make(V2, V2);
 			}
+			*/
 		}
 		
 		private function updateBullets():void
