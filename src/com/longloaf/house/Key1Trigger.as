@@ -15,7 +15,7 @@ package com.longloaf.house
 			super(h);
 			loadGraphic(Img, true, false, 20, 40);
 			
-			x = 366;
+			x = 707;
 			y = 439;
 			
 			onClick = function():void

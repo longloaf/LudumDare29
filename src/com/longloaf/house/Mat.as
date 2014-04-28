@@ -18,7 +18,7 @@ package com.longloaf.house
 			height = 30;
 			centerOffsets();
 			
-			x = 273;
+			x = 614;
 			y = 444;
 		}
 		

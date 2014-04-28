@@ -15,8 +15,8 @@ package com.longloaf.house
 		private static const BG:Class;
 		
 		private var mainPoint:FlxPoint = new FlxPoint(420, 500);
-		private var room2Point:FlxPoint = new FlxPoint(670, 430);
-		private var room3Point:FlxPoint = new FlxPoint(330, 430);
+		private var room2Point:FlxPoint = new FlxPoint(330, 430);
+		private var room3Point:FlxPoint = new FlxPoint(670, 430);
 		private var initPoint:FlxPoint = new FlxPoint(0, 500);
 		
 		public var mat:Mat;
@@ -46,7 +46,7 @@ package com.longloaf.house
 			add(matTrigger);
 			
 			openedDoor1Trigger = new OpenedDoorTrigger(h);
-			openedDoor1Trigger.x = 297;
+			openedDoor1Trigger.x = 638;
 			openedDoor1Trigger.y = 317;
 			openedDoor1Trigger.onClick = function():void
 			{
@@ -64,7 +64,7 @@ package com.longloaf.house
 			add(door1Trigger);
 			
 			openedDoor2Trigger = new OpenedDoorTrigger(h);
-			openedDoor2Trigger.x = 638;
+			openedDoor2Trigger.x = 297;
 			openedDoor2Trigger.y = 317;
 			openedDoor2Trigger.onClick = function():void
 			{
