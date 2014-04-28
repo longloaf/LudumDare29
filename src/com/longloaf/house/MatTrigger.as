@@ -21,6 +21,7 @@ package com.longloaf.house
 			{
 				kill();
 				houseState.room1.mat.exists = true;
+				houseState.room1.key1Trigger.exists = true;
 			}
 		}
 		

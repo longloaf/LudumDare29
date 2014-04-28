@@ -23,7 +23,8 @@ package com.longloaf.house
 		private var initPoint:FlxPoint = new FlxPoint(0, 500);
 		
 		public var mat:Mat;
-		private var matTrigger:MatTrigger;
+		public var matTrigger:MatTrigger;
+		public var key1Trigger:Key1Trigger;
 		
 		public function Room1(h:HouseState) 
 		{
@@ -38,6 +39,10 @@ package com.longloaf.house
 			
 			matTrigger = new MatTrigger(h);
 			add(matTrigger);
+			
+			key1Trigger = new Key1Trigger(h);
+			key1Trigger.exists = false;
+			add(key1Trigger);
 			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 1");
 			txt.alignment = "center";
