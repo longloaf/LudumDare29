@@ -6,6 +6,7 @@ package com.longloaf.hell
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxObject;
+	import org.flixel.FlxSprite;
 	import org.flixel.FlxState;
 	import org.flixel.FlxTilemap;
 	/**
@@ -14,14 +15,14 @@ package com.longloaf.hell
 	 */
 	public class HellState extends FlxState
 	{
-		[Embed(source = "tiles_100x100_2.png")]
+		[Embed(source = "data/image/tiles_50x50_4.png")]
 		private static const Tiles:Class;
 		
-		[Embed(source = "map.txt", mimeType = "application/octet-stream")]
+		[Embed(source = "map_24x18.txt", mimeType = "application/octet-stream")]
 		private static const Map:Class;
 		
-		[Embed(source = "map_16x12.txt", mimeType = "application/octet-stream")]
-		private static const Map2:Class;
+		[Embed(source = "data/image/players.png")]
+		private static const DeadPlayers:Class;
 		
 		public static const TS:Number = 50;
 		
@@ -36,7 +37,11 @@ package com.longloaf.hell
 		override public function create():void 
 		{
 			tileMap = new FlxTilemap();
-			tileMap.loadMap(new Map2(), Tiles, TS, TS, FlxTilemap.OFF, 0, 0, 1);
+			tileMap.loadMap(new Map(), Tiles, TS, TS, FlxTilemap.OFF, 0, 0, 3);
+			
+			var deadPlayers:FlxSprite = new FlxSprite(0, 0, DeadPlayers);
+			deadPlayers.x = (tileMap.width - deadPlayers.width) / 2;
+			deadPlayers.y = (tileMap.height - deadPlayers.height) / 2;
 			
 			bulletGroup = new BulletGroup();
 			
@@ -48,10 +53,10 @@ package com.longloaf.hell
 			enemyGroup.add(player);
 			
 			FlxG.camera.follow(player);
-			//tileMap.follow(FlxG.camera, 1);
-			//
+			tileMap.follow(FlxG.camera, 1);
 			
 			add(tileMap);
+			add(deadPlayers);
 			add(enemyGroup);
 			add(bulletGroup);
 			
