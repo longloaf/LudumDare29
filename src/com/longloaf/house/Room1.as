@@ -11,8 +11,10 @@ package com.longloaf.house
 	public class Room1 extends Room
 	{	
 		private var r3Arr:Trigger;
+		private var r2Arr:Trigger;
 		
 		private var mainPoint:FlxPoint = new FlxPoint(400, 300);
+		private var room2Point:FlxPoint = new FlxPoint(800, 300);
 		private var room3Point:FlxPoint = new FlxPoint(400, 200);
 		private var initPoint:FlxPoint = new FlxPoint(0, 300);
 		
@@ -34,6 +36,16 @@ package com.longloaf.house
 				player.gotoPoint(room3Point, gotoRoom3);
 			};
 			add(r3Arr);
+			
+			r2Arr = new Trigger(houseState);
+			r2Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
+			r2Arr.x = 700;
+			r2Arr.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room2Point, gotoRoom2);
+			};
+			add(r2Arr);
 		}
 		
 		override public function init():void 
@@ -52,6 +64,11 @@ package com.longloaf.house
 		private function gotoRoom3():void
 		{
 			houseState.switchRoom(houseState.room3);
+		}
+		
+		private function gotoRoom2():void
+		{
+			houseState.switchRoom(houseState.room2);
 		}
 		
 	}

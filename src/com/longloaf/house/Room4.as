@@ -23,8 +23,7 @@ package com.longloaf.house
 		{	
 			super(h);
 			
-			var bg:FlxSprite = new FlxSprite();
-			bg.loadGraphic(BG);
+			var bg:FlxSprite = new FlxSprite(0, 0, BG);
 			add(bg);
 			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 4");

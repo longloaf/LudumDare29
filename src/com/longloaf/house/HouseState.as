@@ -43,6 +43,7 @@ package com.longloaf.house
 			currentRoom.exists = true;
 			
 			add(room1);
+			add(room2);
 			add(room3);
 			add(room4);
 			
@@ -56,6 +57,8 @@ package com.longloaf.house
 		{
 			if (FlxG.keys.justPressed("ONE")) {
 				switchRoom(room1);
+			} else if (FlxG.keys.justPressed("TWO")) {
+				switchRoom(room2);
 			} else if (FlxG.keys.justPressed("THREE")) {
 				switchRoom(room3);
 			} else if (FlxG.keys.justPressed("FOUR")) {
