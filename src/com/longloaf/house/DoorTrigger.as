@@ -22,9 +22,6 @@ package com.longloaf.house
 			height = 120;
 			centerOffsets();
 			
-			x = 297;
-			y = 317;
-			
 			onClick = function():void
 			{
 				if (houseState.item == item) {

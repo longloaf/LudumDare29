@@ -14,8 +14,10 @@ package com.longloaf.house
 		[Embed(source = "data/image/room1.png")]
 		private static const BG:Class;
 		
+		/*
 		private var r3Arr:Trigger;
 		private var r2Arr:Trigger;
+		*/
 		
 		private var mainPoint:FlxPoint = new FlxPoint(420, 500);
 		private var room2Point:FlxPoint = new FlxPoint(670, 430);
@@ -27,6 +29,8 @@ package com.longloaf.house
 		public var key1Trigger:Key1Trigger;
 		public var door1Trigger:DoorTrigger;
 		public var openedDoor1Trigger:OpenedDoorTrigger;
+		public var door2Trigger:DoorTrigger;
+		public var openedDoor2Trigger:OpenedDoorTrigger;
 		
 		public function Room1(h:HouseState) 
 		{
@@ -39,27 +43,55 @@ package com.longloaf.house
 			mat.exists = false;
 			add(mat);
 			
-			matTrigger = new MatTrigger(h);
-			add(matTrigger);
-			
 			key1Trigger = new Key1Trigger(h);
 			key1Trigger.exists = false;
 			add(key1Trigger);
 			
+			matTrigger = new MatTrigger(h);
+			add(matTrigger);
+			
 			openedDoor1Trigger = new OpenedDoorTrigger(h);
+			openedDoor1Trigger.x = 297;
+			openedDoor1Trigger.y = 317;
+			openedDoor1Trigger.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room3Point, gotoRoom3);
+			};
 			openedDoor1Trigger.exists = false;
 			add(openedDoor1Trigger);
 			
 			door1Trigger = new DoorTrigger(h);
+			door1Trigger.x = openedDoor1Trigger.x;
+			door1Trigger.y = openedDoor1Trigger.y;
 			door1Trigger.item = HouseState.KEY1_ITEM;
 			door1Trigger.openedDoorTrigger = openedDoor1Trigger;
 			add(door1Trigger);
+			
+			openedDoor2Trigger = new OpenedDoorTrigger(h);
+			openedDoor2Trigger.x = 638;
+			openedDoor2Trigger.y = 317;
+			openedDoor2Trigger.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room2Point, gotoRoom2);
+			};
+			openedDoor2Trigger.exists = false;
+			add(openedDoor2Trigger);
+			
+			door2Trigger = new DoorTrigger(h);
+			door2Trigger.x = openedDoor2Trigger.x;
+			door2Trigger.y = openedDoor2Trigger.y;
+			door2Trigger.item = HouseState.NO_ITEM;
+			door2Trigger.openedDoorTrigger = openedDoor2Trigger;
+			add(door2Trigger);
 			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 1");
 			txt.alignment = "center";
 			txt.size = 16;
 			add(txt);
 			
+			/*
 			r3Arr = new Trigger(houseState);
 			r3Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
 			r3Arr.angle = -90;
@@ -70,7 +102,9 @@ package com.longloaf.house
 				player.gotoPoint(room3Point, gotoRoom3);
 			};
 			add(r3Arr);
+			*/
 			
+			/*
 			r2Arr = new Trigger(houseState);
 			r2Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
 			r2Arr.x = 700;
@@ -80,6 +114,7 @@ package com.longloaf.house
 				player.gotoPoint(room2Point, gotoRoom2);
 			};
 			add(r2Arr);
+			*/
 			
 			add(player);
 		}
