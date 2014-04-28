@@ -17,10 +17,13 @@ package com.longloaf.house
 		private var r3Arr:Trigger;
 		private var r2Arr:Trigger;
 		
-		private var mainPoint:FlxPoint = new FlxPoint(400, 300);
-		private var room2Point:FlxPoint = new FlxPoint(800, 300);
-		private var room3Point:FlxPoint = new FlxPoint(400, 200);
-		private var initPoint:FlxPoint = new FlxPoint(0, 300);
+		private var mainPoint:FlxPoint = new FlxPoint(420, 500);
+		private var room2Point:FlxPoint = new FlxPoint(670, 430);
+		private var room3Point:FlxPoint = new FlxPoint(330, 430);
+		private var initPoint:FlxPoint = new FlxPoint(0, 500);
+		
+		public var mat:Mat;
+		private var matTrigger:MatTrigger;
 		
 		public function Room1(h:HouseState) 
 		{
@@ -28,6 +31,13 @@ package com.longloaf.house
 			
 			var bg:FlxSprite = new FlxSprite(0, 0, BG);
 			add(bg);
+			
+			mat = new Mat();
+			mat.exists = false;
+			add(mat);
+			
+			matTrigger = new MatTrigger(h);
+			add(matTrigger);
 			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 1");
 			txt.alignment = "center";

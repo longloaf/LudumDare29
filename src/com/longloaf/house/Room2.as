@@ -16,8 +16,8 @@ package com.longloaf.house
 		
 		private var r1Arr:Trigger;
 		
-		private var mainPoint:FlxPoint = new FlxPoint(400, 300);
-		private var room1Point:FlxPoint = new FlxPoint(0, 300);
+		private var mainPoint:FlxPoint = new FlxPoint(490, 490);
+		private var room1Point:FlxPoint = new FlxPoint(560, 600);
 		
 		public function Room2(h:HouseState) 
 		{

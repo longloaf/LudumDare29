@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.56420958"
-     inkscape:cx="-452.94304"
-     inkscape:cy="-1371.8867"
+     inkscape:zoom="3.1916514"
+     inkscape:cx="545.37455"
+     inkscape:cy="-1230.4399"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-midpoints="true"
-     inkscape:snap-nodes="false">
+     inkscape:snap-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid4149" />
@@ -1247,5 +1247,112 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\room1.png" />
+    <g
+       id="g4433"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\matTrigger_150x70_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="2116.6926"
+         x="132.04314"
+         height="70"
+         width="150"
+         id="rect4395"
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:none"
+         id="rect4425"
+         width="150"
+         height="70"
+         x="282.04315"
+         y="2116.6926" />
+    </g>
+    <path
+       style="fill:#aa8800;fill-opacity:1;stroke:none"
+       d="m 160.20456,2134.8549 93.05053,0 18.17241,33.6754 -128.76872,0 z"
+       id="rect4379"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\matTrigger_150x70_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4393"
+       d="m 310.20456,2134.8549 93.05053,0 18.17241,33.6754 -128.76872,0 z"
+       style="fill:#aa8800;fill-opacity:1;stroke:#ff1f00;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\matTrigger_150x70_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="2099.855"
+       x="490.06613"
+       height="70"
+       width="150"
+       id="rect4429"
+       style="fill:#b3b3b3;fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\mat_150x70.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4389"
+       transform="translate(174.36927,437.3488)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\mat_150x70.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path4382"
+         d="m 343.84375,1680.6875 -17.53125,33.6563 79.75,0 15.34375,-33.6563 -77.5625,0 z"
+         style="fill:#aa8800;fill-opacity:1;stroke:none"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4384"
+         d="m 421.41194,1680.6748 -15.35255,33.6754 -35.71819,-13.4209 36.34482,-24.4388 z"
+         style="fill:#554400;stroke:none" />
+    </g>
+    <path
+       style="fill:#d4aa00;stroke:none"
+       d="m 340.88066,1975.3875 c -28.72471,0 -52,23.3065 -52,52.0312 0,28.7247 23.27529,52 52,52 24.74573,0 45.45196,-17.287 50.71875,-40.4375 l 89.65625,0 0,23.1875 23.8125,0 0,-23.1875 16.90625,0 0,32.5937 23.8125,0 0,-32.5937 0,-23.1563 -23.8125,0 -16.90625,0 -23.8125,0 -89.65625,0 c -5.27772,-23.1419 -25.98358,-40.4374 -50.71875,-40.4374 z m 0,21.3124 c 16.95796,0 30.71875,13.7608 30.71875,30.7188 0,16.958 -13.76079,30.6875 -30.71875,30.6875 -16.95796,0 -30.6875,-13.7295 -30.6875,-30.6875 0,-16.958 13.72954,-30.7188 30.6875,-30.7188 z"
+       id="path4437"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g4463"
+       style="stroke:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\key1Trigger_40x20_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="2225.5273"
+         x="510.7074"
+         height="40"
+         width="20"
+         id="rect4457"
+         style="fill:#999999;stroke:none" />
+      <rect
+         style="fill:#4d4d4d;stroke:none"
+         id="rect4459"
+         width="20"
+         height="40"
+         x="530.7074"
+         y="2225.5273" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4453"
+       d="m 518.23782,2254.3308 c 1.03777,2.3758 3.80621,3.4588 6.18192,2.4209 2.37572,-1.0378 3.45978,-3.8036 2.42199,-6.1792 -0.89404,-2.0466 -3.07177,-3.1347 -5.17679,-2.7339 l -3.23911,-7.415 1.91776,-0.8377 -0.86036,-1.9694 -1.9177,0.8377 -0.61078,-1.3982 2.69565,-1.1776 -0.86031,-1.9694 -2.69564,1.1775 -1.91518,0.8367 0.86036,1.9693 0.61073,1.3984 0.86035,1.9693 3.23911,7.415 c -1.72328,1.2727 -2.40562,3.6099 -1.512,5.6556 z m 1.76258,-0.7699 c -0.61265,-1.4024 0.0283,-3.0378 1.43086,-3.6504 1.4025,-0.6127 3.03514,0.029 3.64779,1.4319 0.61271,1.4025 -0.0268,3.0341 -1.4293,3.6467 -1.40252,0.6127 -3.03663,-0.025 -3.64935,-1.4282 z"
+       style="fill:#d4aa00;stroke:none"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\key1Trigger_40x20_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d4aa00;stroke:#ff1f00;stroke-opacity:1"
+       d="m 538.23781,2254.3309 c 1.03777,2.3758 3.80621,3.4588 6.18192,2.4209 2.37572,-1.0378 3.45978,-3.8036 2.42199,-6.1792 -0.89404,-2.0466 -3.07177,-3.1347 -5.17679,-2.7339 l -3.23911,-7.415 1.91776,-0.8377 -0.86036,-1.9694 -1.9177,0.8377 -0.61078,-1.3982 2.69565,-1.1776 -0.86031,-1.9694 -2.69564,1.1775 -1.91518,0.8367 0.86036,1.9693 0.61073,1.3984 0.86035,1.9693 3.23911,7.415 c -1.72328,1.2727 -2.40562,3.6099 -1.512,5.6556 z m 1.76258,-0.7699 c -0.61265,-1.4024 0.0283,-3.0378 1.43086,-3.6504 1.4025,-0.6127 3.03514,0.029 3.64779,1.4319 0.61271,1.4025 -0.0268,3.0341 -1.4293,3.6467 -1.40252,0.6127 -3.03663,-0.025 -3.64935,-1.4282 z"
+       id="path4455"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\key1Trigger_40x20_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>

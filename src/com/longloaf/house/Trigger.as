@@ -12,7 +12,7 @@ package com.longloaf.house
 		static public const NORMAL:int = 0;
 		static public const HIGHLIGHT:int = 1;
 		
-		private var houseState:HouseState;
+		protected var houseState:HouseState;
 		
 		public var onClick:Function = null;
 		
