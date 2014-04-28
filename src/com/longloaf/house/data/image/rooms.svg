@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5075"
-     inkscape:cx="280.99833"
-     inkscape:cy="-2388.5097"
+     inkscape:zoom="1.015"
+     inkscape:cx="56.318225"
+     inkscape:cy="-1905.8405"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1613,5 +1613,33 @@
        style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
        d="m 280.99832,3386.9392 24.29392,-25.1912 -13.05546,0 0,-23.3967 -22.49935,0 0,23.3967 -13.03302,0 24.29391,25.1912 z"
        id="path4576" />
+    <g
+       id="g4600"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\rightTrigger_70x200_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="2874.1101"
+         x="42.856483"
+         height="200"
+         width="70"
+         id="rect4586"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+         id="rect4598"
+         width="70"
+         height="200"
+         x="112.85648"
+         y="2874.1101" />
+    </g>
+    <path
+       id="path4590"
+       d="m 172.15043,2974.1102 -25.19121,-24.294 0,13.0555 -23.39669,0 0,22.4993 23.39669,0 0,13.0331 25.19121,-24.2939 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\rightTrigger_70x200_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
