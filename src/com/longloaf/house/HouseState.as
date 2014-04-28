@@ -32,6 +32,8 @@ package com.longloaf.house
 		public static const CROWBAR_ITEM:int = 3;
 		public var item:int = NO_ITEM;
 		
+		private var itemSpr:Items;
+		
 		override public function create():void 
 		{
 			var txt:FlxText;
@@ -54,6 +56,9 @@ package com.longloaf.house
 			add(room2);
 			add(room3);
 			add(room4);
+			
+			itemSpr = new Items(this);
+			add(itemSpr);
 			
 			triggerText = new FlxText(0, 0, FlxG.width, "?");
 			triggerText.size = 16;

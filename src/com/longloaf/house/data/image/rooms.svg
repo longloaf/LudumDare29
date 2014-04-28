@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4354268"
-     inkscape:cx="-586.04923"
-     inkscape:cy="-1934.7741"
+     inkscape:zoom="1.015"
+     inkscape:cx="635.287"
+     inkscape:cy="-1748.2966"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-midpoints="true"
-     inkscape:snap-nodes="true">
+     inkscape:snap-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid4149" />
@@ -1679,5 +1679,64 @@
        inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\crowbarTrigger_120x50_2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <g
+       id="g4634"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\item1_150x150_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+         id="rect4628"
+         width="150"
+         height="150"
+         x="482.99808"
+         y="2734.5701" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:none"
+         id="rect4630"
+         width="150"
+         height="150"
+         x="632.99805"
+         y="2734.5701" />
+      <rect
+         y="2734.5701"
+         x="782.99805"
+         height="150"
+         width="150"
+         id="rect4632"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none" />
+      <rect
+         y="2734.5701"
+         x="332.99808"
+         height="150"
+         width="150"
+         id="rect4626"
+         style="fill:#666666;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\item1_150x150_4.png"
+       style="fill:#d4aa00;stroke:none"
+       d="m 518.25184,2821.6297 c -7.19774,9.6939 -5.16496,23.3884 4.52913,30.5857 9.69284,7.1981 23.37963,5.1749 30.57671,-4.519 6.20027,-8.3504 5.55553,-19.6694 -0.93741,-27.2478 l 22.46417,-30.2548 7.82408,5.811 5.96631,-8.0364 -7.82385,-5.8105 4.23588,-5.7052 10.99865,8.167 5.96623,-8.0355 -10.99845,-8.1671 -7.81371,-5.8036 -5.96588,8.0359 -4.23692,5.7049 -5.96597,8.0355 -22.46444,30.2559 c -9.13216,-4.0176 -20.15638,-1.3636 -26.35399,6.9833 z m 7.1908,5.3415 c 4.24857,-5.7226 12.34098,-6.9188 18.06338,-2.669 5.72067,4.2517 6.90947,12.332 2.6589,18.055 -4.24884,5.723 -12.32251,6.9161 -18.04491,2.6671 -5.72078,-4.2521 -6.92899,-12.3286 -2.67737,-18.0531 z"
+       id="path4618"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\item1_150x150_4.png"
+       style="fill:#999999;stroke:none"
+       d="m 665.82964,2817.4245 c -8.36803,9.1196 -7.74919,23.2991 1.3707,31.6669 9.11943,8.3679 23.28976,7.7592 31.6578,-1.3608 7.20885,-7.8564 7.75249,-19.4664 1.93676,-27.8829 l 26.11828,-28.4645 7.36261,6.754 6.93711,-7.5602 -7.36262,-6.7542 4.92494,-5.3677 10.34797,9.4951 6.9371,-7.5603 -10.34824,-9.4947 -7.35278,-6.7448 -6.93707,7.5603 -4.92494,5.3678 -6.93686,7.5599 -26.11848,28.4648 c -8.88479,-5.0661 -20.40767,-3.5306 -27.61349,4.3224 z m 6.76724,6.2078 c 4.9399,-5.3836 13.31728,-5.7439 18.70154,-0.8038 5.38353,4.9405 5.73414,13.3087 0.79393,18.6926 -4.93991,5.384 -13.29859,5.7432 -18.6826,0.8031 -5.38377,-4.9408 -5.75309,-13.3076 -0.81287,-18.6919 z"
+       id="path4620"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\item1_150x150_4.png"
+       sodipodi:nodetypes="cccsscscccssscccc"
+       inkscape:connector-curvature="0"
+       id="path4622"
+       d="m 787.26649,2871.319 30.82804,-7.266 81.13419,-101.9023 c 0,0 9.07173,-4.7944 13.22392,-3.0078 3.64345,1.5679 5.20574,6.367 6.06104,10.2399 2.03628,9.2268 -5.1134,29.1684 -5.1134,29.1684 0,0 4.36076,-2.0395 5.41739,-2.5398 0.69073,-0.3269 2.42315,-5.3053 3.68768,-10.9432 0.3164,5.2423 0.50302,9.0827 0.50302,9.0827 l 4.22218,-1.5825 c 3.2541,-12.4947 0.28282,-22.7725 -0.29486,-28.6631 -0.37103,-3.7837 -2.901,-7.28 -5.64633,-9.9101 -3.24926,-3.1129 -7.50509,-6.1577 -12.00487,-6.1741 -7.18689,-0.027 -19.24519,9.7199 -19.24519,9.7199 l -77.83606,97.7598 -24.43493,11.3584 z"
+       style="fill:#483737;stroke:none" />
   </g>
 </svg>
