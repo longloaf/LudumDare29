@@ -1,6 +1,8 @@
 package com.longloaf.house 
 {
-	import com.longloaf.TestMenu;
+	import com.longloaf.hole.HoleState;
+	import com.longloaf.Main;
+	import com.longloaf.MenuState;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxSprite;
@@ -95,9 +97,13 @@ package com.longloaf.house
 			mouseText.text = FlxG.mouse.x + "x" + FlxG.mouse.y;
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
-				FlxG.switchState(new TestMenu());
-			} else if (FlxG.keys.justPressed("ENTER")) {
-				FlxG.resetState();
+				FlxG.switchState(new MenuState());
+			} else if (Main.DEBUG_MODE) {
+				if (FlxG.keys.justPressed("ENTER")) {
+					FlxG.resetState();
+				} else if (FlxG.keys.justPressed("N")) {
+					FlxG.switchState(new HoleState());
+				}
 			}
 		}
 		

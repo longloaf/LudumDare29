@@ -1,6 +1,8 @@
 package com.longloaf.hole 
 {
-	import com.longloaf.TestMenu;
+	import com.longloaf.hell.HellState;
+	import com.longloaf.Main;
+	import com.longloaf.MenuState;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxObject;
@@ -79,9 +81,13 @@ package com.longloaf.hole
 			spikeText.text = "SPIKES: " + spikeGroup.count;
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
-				FlxG.switchState(new TestMenu());
-			} else if (FlxG.keys.justPressed("ENTER")) {
-				FlxG.resetState();
+				FlxG.switchState(new MenuState());
+			} else if (Main.DEBUG_MODE) {
+				if (FlxG.keys.justPressed("ENTER")) {
+					FlxG.resetState();
+				} else if (FlxG.keys.justPressed("N")) {
+					FlxG.switchState(new HellState());
+				}
 			}
 		}
 		

@@ -1,7 +1,8 @@
 package com.longloaf.hell 
 {
 	import com.longloaf.Enemy;
-	import com.longloaf.TestMenu;
+	import com.longloaf.Main;
+	import com.longloaf.MenuState;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxObject;
@@ -52,6 +53,8 @@ package com.longloaf.hell
 			add(enemyGroup);
 			add(player);
 			add(bulletGroup);
+			
+			FlxG.flash(FlxG.BLACK);
 		}
 		
 		override public function update():void 
@@ -71,9 +74,11 @@ package com.longloaf.hell
 			FlxG.overlap(bulletGroup, enemyGroup, ovBulletEnemy);
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
-				FlxG.switchState(new TestMenu());
-			} else if (FlxG.keys.justPressed("ENTER")) {
-				FlxG.resetState();
+				FlxG.switchState(new MenuState());
+			} else if (Main.DEBUG_MODE) {
+				if (FlxG.keys.justPressed("ENTER")) {
+					FlxG.resetState();
+				}
 			}
 		}
 		
