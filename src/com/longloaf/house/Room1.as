@@ -54,12 +54,16 @@ package com.longloaf.house
 				player.gotoPoint(room2Point, gotoRoom2);
 			};
 			add(r2Arr);
+			
+			add(player);
 		}
 		
 		override public function init():void 
 		{
 			if (houseState.prevRoom == null) {
 				player.move(initPoint);
+			} else if (houseState.prevRoom == houseState.room2) {
+				player.move(room2Point);
 			} else if (houseState.prevRoom == houseState.room3)  {
 				player.move(room3Point);
 			} else {

@@ -17,7 +17,6 @@ package com.longloaf.house
 			exists = false;
 			
 			player = new Player();
-			add(player);
 		}
 		
 		public function init():void

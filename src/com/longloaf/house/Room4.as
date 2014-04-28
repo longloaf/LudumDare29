@@ -40,6 +40,8 @@ package com.longloaf.house
 				player.gotoPoint(room3Point, gotoRoom3);
 			};
 			add(r3Arr);
+			
+			add(player);
 		}
 		
 		override public function init():void 

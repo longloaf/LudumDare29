@@ -54,6 +54,8 @@ package com.longloaf.house
 				player.gotoPoint(room4Point, gotoRoom4);
 			};
 			add(r4Arr);
+			
+			add(player);
 		}
 		
 		override public function init():void 
