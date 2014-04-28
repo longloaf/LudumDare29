@@ -9,6 +9,9 @@ package com.longloaf.hole
 	 */
 	public class Player extends FlxSprite
 	{
+		[Embed(source = "../hell/data/image/player_50x75_4.png")]
+		private static const Img:Class;
+		
 		private static const T:Number = 0.1;
 		
 		private var t:Number = 0;
@@ -19,7 +22,13 @@ package com.longloaf.hole
 		
 		public function Player() 
 		{
-			makeGraphic(50, 50, FlxU.makeColorFromHSB(100, 0.8, 0.5));
+			//makeGraphic(50, 50, FlxU.makeColorFromHSB(100, 0.8, 0.5));
+			loadGraphic(Img, true, true, 50, 75);
+			width = height = 50;
+			centerOffsets();
+			scale.y = -1;
+			addAnimation("fly", [2, 3], 4);
+			play("fly");
 			
 			x = xs[pos] - width / 2;
 			y = 50;

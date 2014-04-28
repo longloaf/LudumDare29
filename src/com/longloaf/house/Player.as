@@ -9,6 +9,9 @@ package com.longloaf.house
 	 */
 	public class Player extends FlxSprite
 	{
+		[Embed(source = "../hell/data/image/player_50x75_4.png")]
+		private static const Img:Class;
+		
 		private var pathFlag:Boolean = false;
 		
 		private var playerPath:FlxPath = new FlxPath();
@@ -21,7 +24,10 @@ package com.longloaf.house
 		
 		public function Player() 
 		{
-			makeGraphic(50, 50, 0xFF000090);
+			loadGraphic(Img, true, true, 50, 75);
+			addAnimation("idle", [0, 1], 3);
+			addAnimation("move", [2, 3], 3);
+			play("idle");
 			
 			playerPath.addPoint(target, true);
 		}
@@ -54,6 +60,13 @@ package com.longloaf.house
 				if (pathFinish != null) {
 					pathFinish();
 				}
+			}
+			
+			if (velocity.x != 0) {
+				play("move");
+				facing = velocity.x > 0 ? RIGHT : LEFT;
+			} else {
+				play("idle");
 			}
 		}
 		

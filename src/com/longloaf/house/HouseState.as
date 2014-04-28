@@ -16,7 +16,7 @@ package com.longloaf.house
 	{
 		
 		public var triggerFlag:Boolean = false;
-		private var triggerText:FlxText;
+		//private var triggerText:FlxText;
 		
 		public var room1:Room1;
 		public var room2:Room2;
@@ -26,7 +26,7 @@ package com.longloaf.house
 		public var prevRoom:Room;
 		public var currentRoom:Room;
 		
-		private var mouseText:FlxText;
+		//private var mouseText:FlxText;
 		
 		public static const NO_ITEM:int = 0;
 		public static const KEY1_ITEM:int = 1;
@@ -62,6 +62,7 @@ package com.longloaf.house
 			itemSpr = new Items(this);
 			add(itemSpr);
 			
+			/*
 			triggerText = new FlxText(0, 0, FlxG.width, "?");
 			triggerText.size = 16;
 			triggerText.y = (FlxG.height - triggerText.height);
@@ -71,6 +72,7 @@ package com.longloaf.house
 			mouseText.size = 16;
 			mouseText.y = triggerText.y - 20;
 			add(mouseText);
+			*/
 			
 			FlxG.flash(FlxG.BLACK);
 		}
@@ -93,8 +95,8 @@ package com.longloaf.house
 			
 			super.update();
 			
-			triggerText.text = "TRIGGERS: " + triggerFlag;
-			mouseText.text = FlxG.mouse.x + "x" + FlxG.mouse.y;
+			//triggerText.text = "TRIGGERS: " + triggerFlag;
+			//mouseText.text = FlxG.mouse.x + "x" + FlxG.mouse.y;
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new MenuState());
