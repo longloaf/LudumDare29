@@ -1,5 +1,6 @@
 package com.longloaf.hell 
 {
+	import com.longloaf.hell.data.image.Mushr;
 	import com.longloaf.hell.Enemy;
 	import com.longloaf.Main;
 	import com.longloaf.MenuState;
@@ -70,10 +71,14 @@ package com.longloaf.hell
 				var e01:Enemy01 = enemyGroup.recycle(Enemy01) as Enemy01;
 				e01.map = tileMap;
 				e01.reset(FlxG.mouse.x, FlxG.mouse.y);
-			}  else if (FlxG.keys.justPressed("TWO")) {
+			} else if (FlxG.keys.justPressed("TWO")) {
 				var e02:Enemy02 = enemyGroup.recycle(Enemy02) as Enemy02;
 				e02.player = player;
 				e02.reset(FlxG.mouse.x, FlxG.mouse.y);
+			} else if (FlxG.keys.justPressed("THREE")) {
+				var m:Mushr = new Mushr();
+				m.player = player;
+				enemyGroup.add(m);
 			}
 			super.update();
 			
