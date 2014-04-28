@@ -9,10 +9,15 @@ package com.longloaf.house
 	{
 		protected var houseState:HouseState;
 		
+		protected var player:Player;
+		
 		public function Room(h:HouseState) 
 		{
 			houseState = h;
 			exists = false;
+			
+			player = new Player();
+			add(player);
 		}
 		
 		public function init():void

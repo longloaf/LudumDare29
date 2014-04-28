@@ -2,6 +2,7 @@ package com.longloaf.house
 {
 	import com.longloaf.house.data.Assets;
 	import org.flixel.FlxG;
+	import org.flixel.FlxPoint;
 	import org.flixel.FlxText;
 	/**
 	 * ...
@@ -11,6 +12,13 @@ package com.longloaf.house
 	{	
 		private var r2Arr:Trigger;
 		private var r3Arr:Trigger;
+		
+		private var mainPoint:FlxPoint = new FlxPoint(400, 300);
+		private var room2Point:FlxPoint = new FlxPoint(800, 300);
+		private var room3Point:FlxPoint = new FlxPoint(400, 200);
+		private var initPoint:FlxPoint = new FlxPoint(0, 300);
+		
+		private var firstTime:Boolean = true;
 		
 		public function Room1(h:HouseState) 
 		{
@@ -26,6 +34,30 @@ package com.longloaf.house
 			add(r2Arr);
 			
 			r2Arr = new Trigger(houseState);
+		}
+		
+		override public function init():void 
+		{
+			houseState.triggerFlagOff();
+			
+			if (firstTime) {
+				firstTime = false;
+				player.move(initPoint);
+			} else {
+				player.move(room2Point);
+			}
+			
+			player.gotoPoint(mainPoint, houseState.triggerFlagOn);
+		}
+		
+		private function gotoRoom2():void
+		{
+			houseState.switchRoom(houseState.room2);
+		}
+		
+		private function gotoRoom3():void
+		{
+			houseState.switchRoom(houseState.room3);
 		}
 		
 	}

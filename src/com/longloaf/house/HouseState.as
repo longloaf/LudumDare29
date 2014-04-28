@@ -36,6 +36,7 @@ package com.longloaf.house
 			room4 = new Room4(this);
 			
 			currentRoom = room1;
+			currentRoom.init();
 			currentRoom.exists = true;
 			
 			add(room1);
@@ -80,7 +81,23 @@ package com.longloaf.house
 		{
 			currentRoom.exists = false;
 			currentRoom = r;
+			currentRoom.init();
 			currentRoom.exists = true;
+		}
+		
+		public function switchTriggerFlag():void
+		{
+			triggerFlag = !triggerFlag;
+		}
+		
+		public function triggerFlagOn():void
+		{
+			triggerFlag = true;
+		}
+		
+		public function triggerFlagOff():void
+		{
+			triggerFlag = false;
 		}
 		
 	}
