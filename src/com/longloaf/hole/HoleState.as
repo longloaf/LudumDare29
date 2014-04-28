@@ -3,6 +3,7 @@ package com.longloaf.hole
 	import com.longloaf.hell.HellState;
 	import com.longloaf.Main;
 	import com.longloaf.MenuState;
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxObject;
@@ -111,6 +112,7 @@ package com.longloaf.hole
 		{
 			FOBJ.velocity.y = FOBJ.acceleration.y = 0;
 			player.kill();
+			FlxG.play(Snd.DEATH02);
 			FlxG.fade(FlxG.BLACK, 1, FlxG.resetState);
 		}
 		

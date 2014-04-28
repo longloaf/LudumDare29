@@ -1,5 +1,7 @@
-package com.longloaf 
+package com.longloaf.hell 
 {
+	import com.longloaf.sound.Snd;
+	import org.flixel.FlxG;
 	import org.flixel.FlxSprite;
 	/**
 	 * ...
@@ -21,6 +23,9 @@ package com.longloaf
 			--currentHealth;
 			if (currentHealth <= 0) {
 				kill();
+				FlxG.play(Snd.DEATH01);
+			} else {
+				FlxG.play(Snd.SHOT03);
 			}
 		}
 		

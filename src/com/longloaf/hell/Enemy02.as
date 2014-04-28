@@ -1,6 +1,6 @@
 package com.longloaf.hell 
 {
-	import com.longloaf.Enemy;
+	import com.longloaf.hell.Enemy;
 	import com.longloaf.util.R;
 	import org.flixel.FlxG;
 	import org.flixel.FlxPath;

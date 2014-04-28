@@ -8,6 +8,8 @@ package com.longloaf.hell
 	 */
 	public class Bullet extends FlxSprite
 	{
+		[Embed(source = "data/image/bullet.png")]
+		private static const Img:Class;
 		
 		private const T:Number = 1;
 		private var t:Number = 0;
@@ -16,7 +18,8 @@ package com.longloaf.hell
 		
 		public function Bullet() 
 		{
-			makeGraphic(20, 20, 0xFFFFFF00);
+			//makeGraphic(20, 20, 0xFFFFFF00);
+			loadGraphic(Img);
 		}
 		
 		override public function reset(X:Number, Y:Number):void 

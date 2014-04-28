@@ -1,5 +1,6 @@
 package com.longloaf.hell 
 {
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	import org.flixel.FlxPoint;
 	import org.flixel.FlxSprite;
@@ -85,6 +86,7 @@ package com.longloaf.hell
 				if (bt <= 0) {
 					bulletGroup.makeBullet(midp, FlxG.mouse);
 					bt += BT;
+					FlxG.play(Snd.SHOT01);
 				}
 			}
 		}

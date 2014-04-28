@@ -1,8 +1,9 @@
 package com.longloaf.hell 
 {
-	import com.longloaf.Enemy;
+	import com.longloaf.hell.Enemy;
 	import com.longloaf.Main;
 	import com.longloaf.MenuState;
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxObject;
@@ -61,7 +62,6 @@ package com.longloaf.hell
 			add(bulletGroup);
 			
 			FlxG.flash(FlxG.BLACK);
-			//
 		}
 		
 		override public function update():void 
@@ -79,6 +79,7 @@ package com.longloaf.hell
 			
 			FlxG.collide(player, tileMap);
 			FlxG.overlap(bulletGroup, enemyGroup, ovBulletEnemy);
+			FlxG.overlap(player, enemyGroup, ovPlayerEnemy);
 			
 			enemyGroup.sort();
 			
@@ -96,6 +97,15 @@ package com.longloaf.hell
 			if (o2 is Enemy) {
 				o1.kill();
 				(o2 as Enemy).hit();
+			}
+		}
+		
+		private function ovPlayerEnemy(o1:FlxObject, o2:FlxObject):void
+		{
+			if (o2 is Enemy) {
+				player.kill();
+				FlxG.play(Snd.DEATH02);
+				FlxG.fade(FlxG.BLACK, 1, FlxG.resetState);
 			}
 		}
 		
