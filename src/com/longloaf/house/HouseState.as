@@ -13,6 +13,9 @@ package com.longloaf.house
 	public class HouseState extends FlxState
 	{
 		
+		public var triggerFlag:Boolean = true;
+		private var triggerText:FlxText;
+		
 		public var room1:Room;
 		public var room2:Room;
 		public var room3:Room;
@@ -39,6 +42,11 @@ package com.longloaf.house
 			add(room2);
 			add(room3);
 			add(room4);
+			
+			triggerText = new FlxText(0, 0, FlxG.width, "?");
+			triggerText.size = 16;
+			triggerText.y = (FlxG.height - triggerText.height);
+			add(triggerText);
 		}
 		
 		override public function update():void 
@@ -53,7 +61,13 @@ package com.longloaf.house
 				switchRoom(room4);
 			}
 			
+			if (FlxG.keys.justPressed("T")) {
+				triggerFlag = !triggerFlag;
+			}
+			
 			super.update();
+			
+			triggerText.text = "TRIGGERS: " + triggerFlag;
 			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new TestMenu());

@@ -7,7 +7,7 @@ package com.longloaf.house
 	 */
 	public class Room extends FlxGroup
 	{
-		private var houseState:HouseState;
+		protected var houseState:HouseState;
 		
 		public function Room(h:HouseState) 
 		{
