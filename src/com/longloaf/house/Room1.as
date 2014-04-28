@@ -24,6 +24,8 @@ package com.longloaf.house
 			r2Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
 			r2Arr.onClick = function():void { houseState.switchRoom(houseState.room2); };
 			add(r2Arr);
+			
+			r2Arr = new Trigger(houseState);
 		}
 		
 	}
