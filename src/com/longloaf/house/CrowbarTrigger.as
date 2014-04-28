@@ -1,5 +1,6 @@
 package com.longloaf.house 
 {
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	/**
 	 * ...
@@ -22,6 +23,7 @@ package com.longloaf.house
 			{
 				kill();
 				houseState.item = HouseState.CROWBAR_ITEM;
+				FlxG.play(Snd.OK);
 			};
 		}
 		

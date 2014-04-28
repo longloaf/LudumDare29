@@ -1,5 +1,6 @@
 package com.longloaf.house 
 {
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	/**
 	 * ...
@@ -26,6 +27,7 @@ package com.longloaf.house
 				kill();
 				houseState.room1.mat.exists = true;
 				houseState.room1.key1Trigger.exists = true;
+				FlxG.play(Snd.OK);
 			}
 		}
 		

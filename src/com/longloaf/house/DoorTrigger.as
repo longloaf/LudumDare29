@@ -1,5 +1,6 @@
 package com.longloaf.house 
 {
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	/**
 	 * ...
@@ -30,6 +31,9 @@ package com.longloaf.house
 					if (openedDoorTrigger != null) {
 						openedDoorTrigger.exists = true;
 					}
+					FlxG.play(Snd.OK);
+				} else {
+					FlxG.play(Snd.ERR);
 				}
 			};
 		}
