@@ -10,6 +10,8 @@ package com.longloaf.hell
 	 */
 	public class Player extends FlxSprite
 	{
+		[Embed(source = "data/image/player_50x75_4.png")]
+		private static const Img:Class;
 		
 		private const ACC:Number = 1000;
 		
@@ -19,12 +21,17 @@ package com.longloaf.hell
 		private var midp:FlxPoint = new FlxPoint();
 		
 		public var bulletGroup:BulletGroup = null;
-		private const BT:Number = 0.5;
+		private const BT:Number = 0.2;
 		private var bt:Number = 0;
 		
 		public function Player() 
 		{
-			makeGraphic(50, 50, FlxU.makeColorFromHSB(100, 0.7, 0.7));
+			//makeGraphic(50, 50, FlxU.makeColorFromHSB(100, 0.7, 0.7));
+			loadGraphic(Img, true, true, 50, 75);
+			height = 50;
+			offset.y = 25;
+			addAnimation("idle", [0, 1], 3);
+			addAnimation("move", [2, 3], 3);
 			
 			maxVelocity.make(V2, V2);
 			drag.make(ACC, ACC);
@@ -46,6 +53,12 @@ package com.longloaf.hell
 			}
 			if (FlxG.keys.DOWN || FlxG.keys.S) {
 				acceleration.y += ACC;
+			}
+			
+			if ((acceleration.x != 0) && (acceleration.y != 0)) {
+				play("move");
+			} else {
+				play("idle");
 			}
 			
 			getMidpoint(midp);

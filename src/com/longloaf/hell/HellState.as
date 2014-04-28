@@ -45,6 +45,7 @@ package com.longloaf.hell
 			player.bulletGroup = bulletGroup;
 			
 			enemyGroup = new EnemyGroup();
+			enemyGroup.add(player);
 			
 			FlxG.camera.follow(player);
 			//tileMap.follow(FlxG.camera, 1);
@@ -52,7 +53,6 @@ package com.longloaf.hell
 			
 			add(tileMap);
 			add(enemyGroup);
-			add(player);
 			add(bulletGroup);
 			
 			FlxG.flash(FlxG.BLACK);
@@ -74,6 +74,8 @@ package com.longloaf.hell
 			FlxG.collide(player, tileMap);
 			FlxG.overlap(bulletGroup, enemyGroup, ovBulletEnemy);
 			
+			enemyGroup.sort();
+			
 			if (FlxG.keys.justPressed("ESCAPE")) {
 				FlxG.switchState(new MenuState());
 			} else if (Main.DEBUG_MODE) {
@@ -85,8 +87,10 @@ package com.longloaf.hell
 		
 		private function ovBulletEnemy(o1:FlxObject, o2:FlxObject):void
 		{
-			o1.kill();
-			(o2 as Enemy).hit();
+			if (o2 is Enemy) {
+				o1.kill();
+				(o2 as Enemy).hit();
+			}
 		}
 		
 	}
