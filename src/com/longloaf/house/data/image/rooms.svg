@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.2268454"
-     inkscape:cx="479.77073"
-     inkscape:cy="-1259.3011"
+     inkscape:zoom="0.5075"
+     inkscape:cx="280.99833"
+     inkscape:cy="-2388.5097"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1537,7 +1537,7 @@
       </g>
     </g>
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M 553.3125 2460.4062 L 519.46875 2495.5 L 537.65625 2495.5 L 537.65625 2528.0938 L 569 2528.0938 L 569 2495.5 L 587.15625 2495.5 L 553.3125 2460.4062 z "
        id="rect4547" />
     <path
@@ -1585,5 +1585,33 @@
        inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\key2Trigger_40x20_2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <g
+       id="g4582"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\downTrigger_800x80_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="3322.6453"
+         x="-119.00167"
+         height="80"
+         width="800"
+         id="rect4572"
+         style="fill:#4d4d4d;stroke:none" />
+      <rect
+         style="fill:#808080;stroke:none"
+         id="rect4580"
+         width="800"
+         height="80"
+         x="-119.00167"
+         y="3242.6453" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\downTrigger_800x80_2.png"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 280.99832,3386.9392 24.29392,-25.1912 -13.05546,0 0,-23.3967 -22.49935,0 0,23.3967 -13.03302,0 24.29391,25.1912 z"
+       id="path4576" />
   </g>
 </svg>

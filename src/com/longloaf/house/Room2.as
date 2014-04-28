@@ -14,7 +14,8 @@ package com.longloaf.house
 		[Embed(source = "data/image/room2.png")]
 		private static const BG:Class;
 		
-		private var r1Arr:Trigger;
+		//private var r1Arr:Trigger;
+		private var downTrigger:DownTrigger;
 		
 		private var mainPoint:FlxPoint = new FlxPoint(490, 490);
 		private var room1Point:FlxPoint = new FlxPoint(560, 600);
@@ -31,6 +32,7 @@ package com.longloaf.house
 			txt.size = 16;
 			add(txt);
 			
+			/*
 			r1Arr = new Trigger(houseState);
 			r1Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
 			r1Arr.angle = 90;
@@ -41,6 +43,15 @@ package com.longloaf.house
 				player.gotoPoint(room1Point, gotoRoom1);
 			};
 			add(r1Arr);
+			*/
+			
+			downTrigger = new DownTrigger(h);
+			downTrigger.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room1Point, gotoRoom1);
+			};
+			add(downTrigger);
 			
 			add(player);
 		}
