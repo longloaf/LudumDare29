@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.1916514"
-     inkscape:cx="545.37455"
-     inkscape:cy="-1230.4399"
+     inkscape:zoom="1.5958257"
+     inkscape:cx="312.15024"
+     inkscape:cy="-1116.6814"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-midpoints="true"
-     inkscape:snap-nodes="true">
+     inkscape:snap-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid4149" />
@@ -1281,7 +1281,7 @@
        inkscape:connector-curvature="0"
        id="path4393"
        d="m 310.20456,2134.8549 93.05053,0 18.17241,33.6754 -128.76872,0 z"
-       style="fill:#aa8800;fill-opacity:1;stroke:#ff1f00;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#aa8800;fill-opacity:1;stroke:#ff1f00;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\matTrigger_150x70_2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1352,6 +1352,194 @@
        id="path4455"
        inkscape:connector-curvature="0"
        inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\key1Trigger_40x20_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect4495"
+       width="90"
+       height="170"
+       x="775.8642"
+       y="2245.7739" />
+    <rect
+       y="2245.7739"
+       x="865.8642"
+       height="170"
+       width="90"
+       id="rect4497"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none" />
+    <g
+       id="g4473"
+       transform="translate(429.88041,717.85514)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\doorTrigger_90x170_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="1553.3293"
+         x="356.38345"
+         height="119.17889"
+         width="69.200661"
+         id="rect4467"
+         style="fill:#d45500;fill-opacity:1;stroke:none"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\room1.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         y="1612.9188"
+         x="359.48514"
+         height="13.698088"
+         width="13.603173"
+         id="rect4469"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#808080;fill-opacity:1;stroke:none"
+         id="rect4471"
+         width="22.02203"
+         height="6.1654258"
+         x="362.14374"
+         y="1615.1343" />
+    </g>
+    <g
+       transform="translate(519.88041,717.85514)"
+       id="g4499"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\doorTrigger_90x170_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\room1.png"
+         style="fill:#d45500;fill-opacity:1;stroke:#ff1f00;stroke-opacity:1"
+         id="rect4501"
+         width="69.200661"
+         height="119.17889"
+         x="356.38345"
+         y="1553.3293" />
+      <rect
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+         id="rect4503"
+         width="13.603173"
+         height="13.698088"
+         x="359.48514"
+         y="1612.9188" />
+      <rect
+         y="1615.1343"
+         x="362.14374"
+         height="6.1654258"
+         width="22.02203"
+         id="rect4505"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g4556"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\opendDoorTrigger_90x170_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#808080;fill-opacity:1;stroke:none"
+         id="rect4521"
+         width="90"
+         height="170"
+         x="670.12433"
+         y="2462.0078" />
+      <rect
+         y="2462.0078"
+         x="760.12433"
+         height="170"
+         width="90"
+         id="rect4531"
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g4488"
+       transform="matrix(0.88026023,0,0,1,375.0999,934.08925)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\opendDoorTrigger_90x170_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4486"
+         d="m 425.58411,1672.5082 -59.80113,20.0524 -3.10747,-1.2515 0,-119.6363 57.82426,-18.3435 5.08434,0 z"
+         style="fill:#2b1100;stroke:none" />
+      <g
+         transform="matrix(0.86417004,-0.28977058,0,1,57.807073,123.32176)"
+         id="g4478">
+        <rect
+           y="1553.3293"
+           x="356.38345"
+           height="119.17889"
+           width="69.200661"
+           id="rect4480"
+           style="fill:#d45500;fill-opacity:1;stroke:none"
+           inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\room1.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90" />
+        <rect
+           y="1612.9188"
+           x="359.48514"
+           height="13.698088"
+           width="13.603173"
+           id="rect4482"
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#808080;fill-opacity:1;stroke:none"
+           id="rect4484"
+           width="22.02203"
+           height="6.1654258"
+           x="362.14374"
+           y="1615.1343" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.88026023,0,0,1,465.09988,934.08915)"
+       id="g4533"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\opendDoorTrigger_90x170_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         style="fill:#2b1100;stroke:none"
+         d="m 425.58411,1672.5082 -59.80113,20.0524 -3.10747,-1.2515 0,-119.6363 57.82426,-18.3435 5.08434,0 z"
+         id="path4535"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g4537"
+         transform="matrix(0.86417004,-0.28977058,0,1,57.807073,123.32176)">
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\room1.png"
+           style="fill:#d45500;fill-opacity:1;stroke:none"
+           id="rect4539"
+           width="69.200661"
+           height="119.17889"
+           x="356.38345"
+           y="1553.3293" />
+        <rect
+           style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+           id="rect4541"
+           width="13.603173"
+           height="13.698088"
+           x="359.48514"
+           y="1612.9188" />
+        <rect
+           y="1615.1343"
+           x="362.14374"
+           height="6.1654258"
+           width="22.02203"
+           id="rect4543"
+           style="fill:#808080;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 553.3125 2460.4062 L 519.46875 2495.5 L 537.65625 2495.5 L 537.65625 2528.0938 L 569 2528.0938 L 569 2495.5 L 587.15625 2495.5 L 553.3125 2460.4062 z "
+       id="rect4547" />
+    <path
+       id="path4554"
+       d="m 805.12433,2522.7139 -24.29392,25.1912 13.05546,0 0,23.3967 22.49935,0 0,-23.3967 13.03302,0 -24.29391,-25.1912 z"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\opendDoorTrigger_90x170_2.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

@@ -15,8 +15,14 @@ package com.longloaf.house
 			super(h);
 			loadGraphic(Img, true, false, 20, 40);
 			
-			x = 369;
-			y = 444;
+			x = 366;
+			y = 439;
+			
+			onClick = function():void
+			{
+				kill();
+				houseState.item = HouseState.KEY1_ITEM;
+			};
 		}
 		
 	}

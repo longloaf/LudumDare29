@@ -25,6 +25,8 @@ package com.longloaf.house
 		public var mat:Mat;
 		public var matTrigger:MatTrigger;
 		public var key1Trigger:Key1Trigger;
+		public var door1Trigger:DoorTrigger;
+		public var openedDoor1Trigger:OpenedDoorTrigger;
 		
 		public function Room1(h:HouseState) 
 		{
@@ -43,6 +45,15 @@ package com.longloaf.house
 			key1Trigger = new Key1Trigger(h);
 			key1Trigger.exists = false;
 			add(key1Trigger);
+			
+			openedDoor1Trigger = new OpenedDoorTrigger(h);
+			openedDoor1Trigger.exists = false;
+			add(openedDoor1Trigger);
+			
+			door1Trigger = new DoorTrigger(h);
+			door1Trigger.item = HouseState.KEY1_ITEM;
+			door1Trigger.openedDoorTrigger = openedDoor1Trigger;
+			add(door1Trigger);
 			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 1");
 			txt.alignment = "center";

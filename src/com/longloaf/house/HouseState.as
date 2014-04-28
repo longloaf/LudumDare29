@@ -26,6 +26,12 @@ package com.longloaf.house
 		
 		private var mouseText:FlxText;
 		
+		public static const NO_ITEM:int = 0;
+		public static const KEY1_ITEM:int = 1;
+		public static const KEY2_ITEM:int = 2;
+		public static const CROWBAR_ITEM:int = 3;
+		public var item:int = NO_ITEM;
+		
 		override public function create():void 
 		{
 			var txt:FlxText;

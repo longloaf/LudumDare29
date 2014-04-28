@@ -14,8 +14,12 @@ package com.longloaf.house
 		{
 			super(h);
 			loadGraphic(Img, true, false, 150, 70);
-			x = 258;
-			y = 428;
+			width = 120;
+			height = 30;
+			centerOffsets();
+			
+			x = 273;
+			y = 444;
 			
 			onClick = function():void
 			{

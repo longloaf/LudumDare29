@@ -14,9 +14,12 @@ package com.longloaf.house
 		public function Mat() 
 		{
 			loadGraphic(Img);
+			width = 120;
+			height = 30;
+			centerOffsets();
 			
-			x = 258;
-			y = 428;
+			x = 273;
+			y = 444;
 		}
 		
 		/*
