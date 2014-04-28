@@ -35,10 +35,12 @@ package com.longloaf.house
 			key2Trigger = new Key2Trigger(h);
 			add(key2Trigger);
 			
+			/*
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 3");
 			txt.alignment = "center";
 			txt.size = 16;
 			add(txt);
+			*/
 			
 			downTrigger = new DownTrigger(h);
 			downTrigger.onClick = function():void

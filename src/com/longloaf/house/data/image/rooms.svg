@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.015"
-     inkscape:cx="-435.81112"
-     inkscape:cy="-2466.2604"
+     inkscape:zoom="1.4354268"
+     inkscape:cx="63.691901"
+     inkscape:cy="-1557.5082"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2035,5 +2035,33 @@
            style="fill:#6c5d53;fill-opacity:1;stroke:none" />
       </g>
     </g>
+    <g
+       id="g4890"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\holeTrigger_300x90_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="2507.425"
+         x="-65.348633"
+         height="90"
+         width="300"
+         id="rect4884"
+         style="fill:#808080;stroke:none" />
+      <rect
+         style="fill:#4d4d4d;stroke:none"
+         id="rect4886"
+         width="300"
+         height="90"
+         x="-65.348633"
+         y="2597.425" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\house\data\image\holeTrigger_300x90_2.png"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m 84.651318,2666.719 24.294002,-25.1912 -13.055502,0 0,-23.3967 -22.4993,0 0,23.3967 -13.033101,0 24.293901,25.1912 z"
+       id="path4888" />
   </g>
 </svg>

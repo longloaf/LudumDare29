@@ -28,10 +28,12 @@ package com.longloaf.house
 			var bg:FlxSprite = new FlxSprite(0, 0, BG);
 			add(bg);
 			
+			/*
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 2");
 			txt.alignment = "center";
 			txt.size = 16;
 			add(txt);
+			*/
 			
 			crawbarTrigger = new CrowbarTrigger(h);
 			add(crawbarTrigger);

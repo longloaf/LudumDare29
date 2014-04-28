@@ -81,10 +81,12 @@ package com.longloaf.house
 			door2Trigger.openedDoorTrigger = openedDoor2Trigger;
 			add(door2Trigger);
 			
+			/*
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 1");
 			txt.alignment = "center";
 			txt.size = 16;
 			add(txt);
+			*/
 			
 			add(player);
 		}
