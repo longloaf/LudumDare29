@@ -14,6 +14,8 @@ package com.longloaf.hell
 	 */
 	public class Enemy01 extends Enemy
 	{
+		[Embed(source = "data/image/enemy01_100x100_3.png")]
+		private static const Img:Class;
 		
 		public var map:FlxTilemap = null;
 		
@@ -25,7 +27,14 @@ package com.longloaf.hell
 		
 		public function Enemy01() 
 		{
-			makeGraphic(50, 50, 0xFF900000);
+			//makeGraphic(50, 50, 0xFF900000);
+			loadGraphic(Img, true, true, 100, 100);
+			width = height = 50;
+			centerOffsets();
+			//offset.y = 50;
+			
+			addAnimation("1", [0, 1, 2], 3);
+			play("1");
 			
 			p = new FlxPath();
 			p.addPoint(target, true);
@@ -45,6 +54,8 @@ package com.longloaf.hell
 			if (pathSpeed == 0) {
 				newTarget();
 			}
+			
+			facing = velocity.x >= 0 ? RIGHT : LEFT;
 		}
 		
 		private function newTarget():void
