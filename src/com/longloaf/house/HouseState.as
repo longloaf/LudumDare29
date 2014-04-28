@@ -13,7 +13,7 @@ package com.longloaf.house
 	public class HouseState extends FlxState
 	{
 		
-		public var triggerFlag:Boolean = true;
+		public var triggerFlag:Boolean = false;
 		private var triggerText:FlxText;
 		
 		public var room1:Room;
@@ -21,7 +21,8 @@ package com.longloaf.house
 		public var room3:Room;
 		public var room4:Room;
 		
-		private var currentRoom:Room;
+		public var prevRoom:Room;
+		public var currentRoom:Room;
 		
 		override public function create():void 
 		{
@@ -34,6 +35,8 @@ package com.longloaf.house
 			room3 = new Room3(this);
 			
 			room4 = new Room4(this);
+			
+			prevRoom = null;
 			
 			currentRoom = room1;
 			currentRoom.init();
@@ -79,7 +82,9 @@ package com.longloaf.house
 		
 		public function switchRoom(r:Room):void
 		{
-			currentRoom.exists = false;
+			prevRoom = currentRoom;
+			prevRoom.exists = false;
+			
 			currentRoom = r;
 			currentRoom.init();
 			currentRoom.exists = true;

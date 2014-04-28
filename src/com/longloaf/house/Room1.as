@@ -18,8 +18,6 @@ package com.longloaf.house
 		private var room3Point:FlxPoint = new FlxPoint(400, 200);
 		private var initPoint:FlxPoint = new FlxPoint(0, 300);
 		
-		private var firstTime:Boolean = true;
-		
 		public function Room1(h:HouseState) 
 		{
 			super(h);
@@ -30,21 +28,37 @@ package com.longloaf.house
 			
 			r2Arr = new Trigger(houseState);
 			r2Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
-			r2Arr.onClick = function():void { houseState.switchRoom(houseState.room2); };
+			r2Arr.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room2Point, gotoRoom2);
+			};
 			add(r2Arr);
+			
+			r3Arr = new Trigger(houseState);
+			r3Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
+			r3Arr.angle = -90;
+			r3Arr.x = 400;
+			r3Arr.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room3Point, gotoRoom3);
+			};
+			add(r3Arr);
 			
 			r2Arr = new Trigger(houseState);
 		}
 		
 		override public function init():void 
 		{
-			houseState.triggerFlagOff();
-			
-			if (firstTime) {
-				firstTime = false;
+			if (houseState.prevRoom == null) {
 				player.move(initPoint);
-			} else {
+			} else if (houseState.prevRoom == houseState.room2) {
 				player.move(room2Point);
+			} else if (houseState.prevRoom == houseState.room3)  {
+				player.move(room3Point);
+			} else {
+				throw new Error();
 			}
 			
 			player.gotoPoint(mainPoint, houseState.triggerFlagOn);
