@@ -15,14 +15,15 @@ package com.longloaf.house
 		private static const BG:Class;
 		
 		private var downTrigger:DownTrigger;
-		private var rightTrigger:RightTrigger;
-		//private var r4Arr:Trigger;
+		public var rightTrigger:RightTrigger;
 		
 		private var mainPoint:FlxPoint = new FlxPoint(490, 490);
 		private var room1Point:FlxPoint = new FlxPoint(560, 600);
 		private var room4Point:FlxPoint = new FlxPoint(660, 490);
 		
 		public var key2Trigger:Key2Trigger;
+		
+		private var boardsTrigger:BoardsTrigger;
 		
 		public function Room3(h:HouseState) 
 		{
@@ -55,19 +56,11 @@ package com.longloaf.house
 				houseState.triggerFlagOff();
 				player.gotoPoint(room4Point, gotoRoom4);
 			};
+			rightTrigger.exists = false;
 			add(rightTrigger);
 			
-			/*
-			r4Arr = new Trigger(houseState);
-			r4Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
-			r4Arr.x = 700;
-			r4Arr.onClick = function():void
-			{
-				houseState.triggerFlagOff();
-				player.gotoPoint(room4Point, gotoRoom4);
-			};
-			add(r4Arr);
-			*/
+			boardsTrigger = new BoardsTrigger(h);
+			add(boardsTrigger);
 			
 			add(player);
 		}
