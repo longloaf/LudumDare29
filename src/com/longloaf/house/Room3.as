@@ -3,6 +3,7 @@ package com.longloaf.house
 	import com.longloaf.house.data.Assets;
 	import org.flixel.FlxG;
 	import org.flixel.FlxPoint;
+	import org.flixel.FlxSprite;
 	import org.flixel.FlxText;
 	/**
 	 * ...
@@ -10,6 +11,8 @@ package com.longloaf.house
 	 */
 	public class Room3 extends Room
 	{
+		[Embed(source = "data/image/room3.png")]
+		private static const BG:Class;
 		
 		private var r1Arr:Trigger;
 		private var r4Arr:Trigger;
@@ -21,6 +24,10 @@ package com.longloaf.house
 		public function Room3(h:HouseState) 
 		{
 			super(h);
+			
+			var bg:FlxSprite = new FlxSprite(0, 0, BG);
+			add(bg);
+			
 			var txt:FlxText = new FlxText(0, 0, FlxG.width, "Room 3");
 			txt.alignment = "center";
 			txt.size = 16;
