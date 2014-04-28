@@ -30,13 +30,23 @@ package com.longloaf.house
 			r1Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
 			r1Arr.angle = 90;
 			r1Arr.x = 400;
-			r1Arr.y = 500;
+			r1Arr.y = 400;
 			r1Arr.onClick = function():void
 			{
 				houseState.triggerFlagOff();
 				player.gotoPoint(room1Point, gotoRoom1);
 			};
 			add(r1Arr);
+			
+			r4Arr = new Trigger(houseState);
+			r4Arr.loadGraphic(Assets.ARR_RIGHT, true, false, 100, 200);
+			r4Arr.x = 700;
+			r4Arr.onClick = function():void
+			{
+				houseState.triggerFlagOff();
+				player.gotoPoint(room4Point, gotoRoom4);
+			};
+			add(r4Arr);
 		}
 		
 		override public function init():void 
