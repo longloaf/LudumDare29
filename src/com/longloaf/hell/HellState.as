@@ -48,6 +48,7 @@ package com.longloaf.hell
 			
 			FlxG.camera.follow(player);
 			//tileMap.follow(FlxG.camera, 1);
+			//
 			
 			add(tileMap);
 			add(enemyGroup);
