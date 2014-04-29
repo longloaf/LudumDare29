@@ -13,7 +13,7 @@ package com.longloaf.hole
 		public function Bg()
 		{
 			var y:Number = 0;
-			while (y <= FlxG.height) {
+			while (y <= 2 * FlxG.height) {
 				last = new BgSpr();
 				last.x = 200;
 				last.y = y;
@@ -24,7 +24,7 @@ package com.longloaf.hole
 		
 		override public function update():void 
 		{
-			if (last.y <= (FlxG.height - last.height)) {
+			if (last.y <= FlxG.height) {
 				var tmp:BgSpr = recycle(BgSpr) as BgSpr;
 				tmp.reset(200, last.y + last.height);
 				last = tmp;

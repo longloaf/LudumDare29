@@ -56,7 +56,7 @@ package com.longloaf.hell
 				acceleration.y += ACC;
 			}
 			
-			if ((acceleration.x != 0) && (acceleration.y != 0)) {
+			if ((acceleration.x != 0) || (acceleration.y != 0)) {
 				play("move");
 			} else {
 				play("idle");

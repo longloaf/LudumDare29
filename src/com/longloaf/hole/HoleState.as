@@ -1,6 +1,7 @@
 package com.longloaf.hole 
 {
 	import com.longloaf.hell.HellState;
+	import com.longloaf.HoleControls;
 	import com.longloaf.Main;
 	import com.longloaf.MenuState;
 	import com.longloaf.sound.Snd;
@@ -73,6 +74,8 @@ package com.longloaf.hole
 			add(spikeGroup);
 			//add(velText);
 			//add(spikeText);
+			
+			add(new HoleControls());
 			
 			FlxG.flash(FlxG.BLACK);
 		}

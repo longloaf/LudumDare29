@@ -3,6 +3,7 @@ package com.longloaf.hell
 	import com.longloaf.EndState;
 	import com.longloaf.hell.data.image.Mushr;
 	import com.longloaf.hell.Enemy;
+	import com.longloaf.HellControls;
 	import com.longloaf.Main;
 	import com.longloaf.MenuState;
 	import com.longloaf.sound.Snd;
@@ -76,6 +77,8 @@ package com.longloaf.hell
 			add(deadPlayers);
 			add(enemyGroup);
 			add(bulletGroup);
+			
+			add(new HellControls());
 			
 			FlxG.flash(FlxG.BLACK);
 		}

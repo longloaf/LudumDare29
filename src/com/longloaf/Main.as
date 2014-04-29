@@ -17,7 +17,7 @@ package com.longloaf
 		public function Main() 
 		{
 			super(800, 600, MenuState, 1, 30, 30, true);
-			//forceDebugger = true;
+			forceDebugger = DEBUG_MODE;
 		}
 		
 	}

@@ -11,7 +11,7 @@ package com.longloaf.hole
 		private const DMIN:Number = 600;// 1000;
 		private const DMAX:Number = 900;// 1500;
 		
-		private var y:Number = 1000;
+		private var y:Number = 2000;
 		
 		public var count:int = 0;
 		public static const MAX_COUNT:int = 40;

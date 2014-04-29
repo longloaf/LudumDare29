@@ -1,8 +1,10 @@
 package com.longloaf.house 
 {
 	import com.longloaf.hole.HoleState;
+	import com.longloaf.HouseControls;
 	import com.longloaf.Main;
 	import com.longloaf.MenuState;
+	import com.longloaf.sound.Snd;
 	import org.flixel.FlxG;
 	import org.flixel.FlxGroup;
 	import org.flixel.FlxSprite;
@@ -74,6 +76,9 @@ package com.longloaf.house
 			add(mouseText);
 			*/
 			
+			add(new HouseControls());
+			
+			FlxG.play(Snd.MUSHR);
 			FlxG.flash(FlxG.BLACK);
 		}
 		
