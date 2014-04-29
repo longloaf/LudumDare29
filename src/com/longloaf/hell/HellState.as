@@ -148,6 +148,8 @@ package com.longloaf.hell
 			} else if (Main.DEBUG_MODE) {
 				if (FlxG.keys.justPressed("ENTER")) {
 					FlxG.resetState();
+				} if (FlxG.keys.justPressed("N")) {
+					FlxG.switchState(new EndState());
 				}
 			}
 		}
