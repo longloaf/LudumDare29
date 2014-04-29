@@ -14,7 +14,7 @@ package com.longloaf.hole
 		private var y:Number = 1000;
 		
 		public var count:int = 0;
-		public static const MAX_COUNT:int = 50;
+		public static const MAX_COUNT:int = 40;
 		
 		public function SpikeGroup() 
 		{

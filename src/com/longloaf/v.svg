@@ -26,7 +26,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
      inkscape:cx="-70.714286"
-     inkscape:cy="600.8122"
+     inkscape:cy="277.56339"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -89,5 +89,138 @@
          x="-138.9202"
          y="147.26552"
          id="tspan5928">Press Enter</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\menuState.png"
+       y="571.01648"
+       x="-368.65552"
+       height="600"
+       width="800"
+       id="rect5932"
+       style="fill:#44aa00;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:116.48291016px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+       x="-224.31502"
+       y="684.90753"
+       id="text5934"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\menuState.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5936"
+         x="-224.31502"
+         y="684.90753">The Hole</tspan></text>
+    <g
+       id="g5976"
+       transform="translate(0,46.467017)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\menuState.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5938"
+         y="844.27075"
+         x="-210.23755"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+         xml:space="preserve"><tspan
+           id="tspan5942"
+           y="844.27075"
+           x="-210.23755"
+           sodipodi:role="line">Made for Ludum Dare 29</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5946"
+         y="886.69714"
+         x="-254.72974"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+         xml:space="preserve"><tspan
+           y="886.69714"
+           x="-254.72974"
+           id="tspan5948"
+           sodipodi:role="line">Theme: Beneath the Surface</tspan></text>
+    </g>
+    <g
+       id="g5966"
+       transform="translate(0,42.426407)"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\menuState.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5950"
+         y="955.38751"
+         x="-133.63599"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+         xml:space="preserve"><tspan
+           y="955.38751"
+           x="-133.63599"
+           id="tspan5952"
+           sodipodi:role="line">Maksim Soldatov</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5954"
+         y="996.54364"
+         x="-123.26489"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+         xml:space="preserve"><tspan
+           y="996.54364"
+           x="-123.26489"
+           id="tspan5956"
+           sodipodi:role="line">Eugene Malygin</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5958"
+         y="1041.6255"
+         x="-110.32544"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+         xml:space="preserve"><tspan
+           y="1041.6255"
+           x="-110.32544"
+           id="tspan5960"
+           sodipodi:role="line">Anna Shergina</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5962"
+         y="1086.7074"
+         x="-122.96216"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+         xml:space="preserve"><tspan
+           y="1086.7074"
+           x="-122.96216"
+           id="tspan5964"
+           sodipodi:role="line">Rodion Shergin</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:63.48966217px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+       x="-303.30927"
+       y="770.57446"
+       id="text5982"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\menuState.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5984"
+         x="-303.30927"
+         y="770.57446">Press Enter to play </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas"
+       x="-210.72583"
+       y="820.0271"
+       id="text5986"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="D:\flash\games\LudumDare\LudumDare29\src\com\longloaf\menuState.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5988"
+         x="-210.72583"
+         y="820.0271"
+         style="font-weight:bold;-inkscape-font-specification:Consolas Bold">Controls: WASD + Mouse</tspan></text>
   </g>
 </svg>

@@ -12,12 +12,12 @@ package com.longloaf
 	public class Main extends FlxGame
 	{
 		
-		public static const DEBUG_MODE:Boolean = true;
+		public static const DEBUG_MODE:Boolean = false;
 		
 		public function Main() 
 		{
 			super(800, 600, MenuState, 1, 30, 30, true);
-			forceDebugger = true;
+			//forceDebugger = true;
 		}
 		
 	}

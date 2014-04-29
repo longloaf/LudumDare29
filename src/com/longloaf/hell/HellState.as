@@ -37,7 +37,7 @@ package com.longloaf.hell
 		
 		private var bulletGroup:BulletGroup;
 		
-		private const ENEMY_COUNT:int = 100;
+		private const ENEMY_COUNT:int = 50;
 		private var enemyCount:int = 0;
 		
 		private const T:Number = 0.5;
